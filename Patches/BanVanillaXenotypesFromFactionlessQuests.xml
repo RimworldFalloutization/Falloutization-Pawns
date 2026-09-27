@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- prevent non-fallout xenotype from being used for factionless pawns in quests -->
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Dirtmole"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Dirtmole"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Dirtmole"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Genie"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Genie"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Genie"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Hussar"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Hussar"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Hussar"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Neanderthal"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Neanderthal"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Neanderthal"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Pigskin"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Pigskin"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Pigskin"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Impid"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Impid"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Impid"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Waster"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Waster"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Waster"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Yttakin"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Yttakin"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Yttakin"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+    <xpath>Defs/XenotypeDef[defName="Highmate"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="Highmate"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="Highmate"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+</Patch>

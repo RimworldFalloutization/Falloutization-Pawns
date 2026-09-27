@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Prevent WestTek Numen, Overgrown, Spore Carrier, S'Lanter, Skinwalker, and S'Nuffy
+       from generating as factionless pawns or as members of unrelated factions.
+       Dedicated HHTools S'Lanter / Numen / Critter factions are left alone. -->
+
+  <!--__________ Numen __________-->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Numen"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Numen"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Numen"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <!--__________ Overgrown __________-->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Overgrown"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Overgrown"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Overgrown"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <!--__________ Spore Carrier __________-->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SporeCarrier"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SporeCarrier"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SporeCarrier"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <!--__________ S'Lanter __________-->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SLanter"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SLanter"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SLanter"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <!--__________ Skinwalker __________-->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Skinwalker"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Skinwalker"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_Skinwalker"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <!--__________ S'Nuffy __________-->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SNuffy"]/factionlessGenerationWeight</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SNuffy"]/factionlessGenerationWeight</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_SNuffy"]</xpath>
+      <value><factionlessGenerationWeight>0</factionlessGenerationWeight></value>
+    </nomatch>
+  </Operation>
+
+  <!-- Strip from unrelated faction/pawnkind/meme xenotype sets; keep HHTools dedicated factions -->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/FactionDef[not(defName="HHTools_Mutant_Slanter" or defName="HHTools_Mutant_Numen" or defName="HHTools_Mutant_Critter")]/xenotypeSet/xenotypeChances/WestTek_Xenotype_Numen | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Numen | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Numen</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef[not(defName="HHTools_Mutant_Slanter" or defName="HHTools_Mutant_Numen" or defName="HHTools_Mutant_Critter")]/xenotypeSet/xenotypeChances/WestTek_Xenotype_Numen | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Numen | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Numen</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Overgrown | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Overgrown | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Overgrown</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Overgrown | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Overgrown | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Overgrown</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SporeCarrier | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SporeCarrier | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SporeCarrier</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SporeCarrier | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SporeCarrier | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SporeCarrier</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/FactionDef[not(defName="HHTools_Mutant_Slanter" or defName="HHTools_Mutant_Numen" or defName="HHTools_Mutant_Critter")]/xenotypeSet/xenotypeChances/WestTek_Xenotype_SLanter | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SLanter | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SLanter</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef[not(defName="HHTools_Mutant_Slanter" or defName="HHTools_Mutant_Numen" or defName="HHTools_Mutant_Critter")]/xenotypeSet/xenotypeChances/WestTek_Xenotype_SLanter | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SLanter | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SLanter</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Skinwalker | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Skinwalker | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Skinwalker</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Skinwalker | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Skinwalker | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_Skinwalker</xpath>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SNuffy | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SNuffy | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SNuffy</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SNuffy | Defs/PawnKindDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SNuffy | Defs/MemeDef/xenotypeSet/xenotypeChances/WestTek_Xenotype_SNuffy</xpath>
+    </match>
+  </Operation>
+
+</Patch>

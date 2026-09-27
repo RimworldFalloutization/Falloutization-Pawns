@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Match FIP RobCo's mechanitor → RobCo mechanic rename -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeMechanitor"]/label</xpath>
+    <value>
+      <label>become a RobCo mechanic</label>
+    </value>
+  </Operation>
+
+</Patch>

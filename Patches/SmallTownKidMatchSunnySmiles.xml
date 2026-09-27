@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Match vanilla Small town kid to FCP Sunny Smiles childhood -->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SmallTownKid41"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] grew up chasing geckos out of the vegetable patch with a switch, long before anyone trusted [PAWN_objective] with a real gun.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SmallTownKid41"]/skillGains</xpath>
+        <value>
+            <skillGains>
+                <Animals>2</Animals>
+                <Shooting>1</Shooting>
+            </skillGains>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SmallTownKid41"]/workDisables</xpath>
+        <value>
+            <workDisables>None</workDisables>
+        </value>
+    </Operation>
+
+</Patch>
