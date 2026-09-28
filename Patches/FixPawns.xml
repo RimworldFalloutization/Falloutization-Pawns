@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Unarmed NCRCF quest inmates were incorrectly included in deserter combat raids. -->
+  <Operation Class="PatchOperationRemove" MayRequire="Rick.FCP.NCR">
+    <xpath>Defs/FactionDef[defName="FCP_Faction_NCR_Deserters"]/pawnGroupMakers/li[kindDef="Combat"]/options/FCP_Pawnkind_NCR_Deserter_NCRCF_Quest</xpath>
+  </Operation>
+
+</Patch>
