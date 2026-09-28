@@ -16,7 +16,21 @@
         <li>Ludeon.RimWorld.Anomaly</li>
         <li>Rick.FCP.Core.Tools</li>
         <li>VanillaExpanded.VanillaAspirationsExpanded</li>
+        <li>VanillaExpanded.VanillaBackstoriesExpanded</li>
+        <li>FIP.Arktos</li>
+        <li>FIP.Corvega</li>
+        <li>FIP.FutureTec</li>
+        <li>FIP.Greenway</li>
+        <li>FIP.HHTools</li>
+        <li>FIP.Hubris</li>
+        <li>FIP.Lucky38</li>
+        <li>FIP.Poseidon</li>
+        <li>FIP.Repconn</li>
+        <li>FIP.RobCo</li>
+        <li>FIP.Sunset</li>
         <li>FIP.WestTek</li>
+        <li>FIP.Whitespring</li>
+        <li>FIP.Donaustahl</li>
     </loadAfter>
     <modVersion>1.0</modVersion>
 </ModMetaData>

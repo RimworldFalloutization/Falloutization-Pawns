@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Overwrite FIP DefInjected BackstoryDef labels/descriptions so Falloutization wins (vanilla Offworld/Outlander). -->
+  <!-- ConventChild16: convent child -->
+  <ConventChild16.description>[PAWN_nameDef] was brought up in a pacifistic cult. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical and violence immoral.</ConventChild16.description>
+  <!-- TechScholar75: farm kid -->
+  <TechScholar75.description>[PAWN_nameDef] grew up with a group of wasteland farmers. They helped [PAWN_objective] practice shooting every single day, and passed on some basic farming skills. They also taught [PAWN_nameDef] how to focus on working hard with [PAWN_possessive] hands instead of getting distracted by pre-war machines.</TechScholar75.description>
+  <!-- IndustrialOrphan13: industrial orphan => indentured orphan -->
+  <IndustrialOrphan13.title>indentured orphan</IndustrialOrphan13.title>
+  <IndustrialOrphan13.titleShort>orphan</IndustrialOrphan13.titleShort>
+  <IndustrialOrphan13.description>[PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_possessive] earliest memories were of drudgery in the scrapyards and workhouses of [PAWN_possessive] employer.\n\nBecause of this, [PAWN_pronoun] never received a proper education.</IndustrialOrphan13.description>
+  <!-- MedievalSlave49: medieval slave => wasteland slave -->
+  <MedievalSlave49.title>wasteland slave</MedievalSlave49.title>
+  <MedievalSlave49.titleShort>slave</MedievalSlave49.titleShort>
+  <MedievalSlave49.description>[PAWN_nameDef] grew up pulling carts and scavenging in the wasteland. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's leash.\n\n[PAWN_pronoun] didn't learn to read until age nine.</MedievalSlave49.description>
+  <!-- ShelterChild50: shelter kid => vault kid -->
+  <ShelterChild50.title>vault kid</ShelterChild50.title>
+  <ShelterChild50.titleShort>vaultkid</ShelterChild50.titleShort>
+  <ShelterChild50.description>[PAWN_nameDef] grew up in a vault deep underground. [PAWN_pronoun] received a comprehensive education, but had no opportunity to do physical labour.</ShelterChild50.description>
+  <!-- StoryWriter67: story writer -->
+  <StoryWriter67.description>As a child, [PAWN_nameDef] was fascinated with the few books [PAWN_pronoun] could get [PAWN_possessive] hands on in the wasteland. With no way to get more books to read, [PAWN_pronoun] decided to fill the gap by writing [PAWN_possessive] own stories instead.</StoryWriter67.description>
+  <!-- UrbworldUrchin61: city urchin => urban urchin -->
+  <UrbworldUrchin61.title>urban urchin</UrbworldUrchin61.title>
+  <UrbworldUrchin61.titleShort>urchin</UrbworldUrchin61.titleShort>
+  <UrbworldUrchin61.description>Ruins of pre-war cities are labyrinths of rust, radiation and mutants. [PAWN_nameDef] grew up in the deep reaches of one of them and had to fight for every scrap of food.</UrbworldUrchin61.description>
+  <!-- WreckageExplorer93: wreckage explorer => ruin explorer -->
+  <WreckageExplorer93.title>ruin explorer</WreckageExplorer93.title>
+  <WreckageExplorer93.titleShort>explorer</WreckageExplorer93.titleShort>
+  <WreckageExplorer93.description>[PAWN_nameDef] was tasked with watching [PAWN_possessive] family's herds, but often shirked [PAWN_possessive] duties to go exploring the pre-war ruins scattered around the wasteland.</WreckageExplorer93.description>
+  <!-- Adventurer19: adventurer -->
+  <Adventurer19.description>[PAWN_nameDef]'s thirst for adventure took [PAWN_objective] all over the wasteland. [PAWN_pronoun] visited the most vibrant settlements and the darkest irradiated ruins in [PAWN_possessive] quest to find artifacts of the past and excitement.\n\n[PAWN_pronoun] worked as little as possible, often skirting ethical boundaries to make a quick buck. Among all jobs, [PAWN_pronoun] hated cooking the most.</Adventurer19.description>
+  <!-- AdventurousWeirdo55: adventurous weirdo -->
+  <AdventurousWeirdo55.description>A creative but strange individual, [PAWN_nameDef] dedicated [PAWN_possessive] life to [PAWN_possessive] twin passions of pre-war history and high technology.\n\n[PAWN_pronoun] was fascinated by the idea of becoming a 'paladin' with power armor and a giant ripper.</AdventurousWeirdo55.description>
+  <!-- ArtifactHunter48: artifact hunter -->
+  <ArtifactHunter48.description>[PAWN_nameDef] became depressed and lost interest in life. [PAWN_pronoun] travelled the wasteland, searching for pre-war artifacts in the hope that they would cure the pain in [PAWN_possessive] soul.\n\nA steady trigger finger and careful planning kept [PAWN_nameDef] alive.</ArtifactHunter48.description>
+  <!-- BountyHunter17: bounty hunter 17 -->
+  <BountyHunter17.description>[PAWN_nameDef] was a self-employed bounty hunter. [PAWN_pronoun] spent [PAWN_possessive] days hunting raiders and collecting bounties.</BountyHunter17.description>
+  <!-- Brigand68: brigand => raider -->
+  <Brigand68.title>raider</Brigand68.title>
+  <Brigand68.titleShort>raider</Brigand68.titleShort>
+  <Brigand68.description>[PAWN_nameDef] ran with a gang of raiders [PAWN_pronoun] called friends. [PAWN_pronoun] even had a gang of [PAWN_possessive] own - The Dung Muckers.</Brigand68.description>
+  <!-- Chemist78: chemist 78 -->
+  <Chemist78.description>[PAWN_nameDef] was a renowned chemist in a thriving town.\n\nAfter performing inhumane experiments that turned men into mutants, [PAWN_pronoun] was arrested and banished into the wasteland.</Chemist78.description>
+  <!-- ColiseumFighter22: coliseum fighter => pit fighter -->
+  <ColiseumFighter22.title>pit fighter</ColiseumFighter22.title>
+  <ColiseumFighter22.titleShort>fighter</ColiseumFighter22.titleShort>
+  <ColiseumFighter22.description>Applying the knowledge that [PAWN_pronoun] gained from years around fighters, [PAWN_pronoun] became a successful gladiator in the fighting pits that [PAWN_pronoun] once cleaned.</ColiseumFighter22.description>
+  <!-- ColonialGovernor78: colonial governor => town mayor -->
+  <ColonialGovernor78.title>town mayor</ColonialGovernor78.title>
+  <ColonialGovernor78.titleShort>mayor</ColonialGovernor78.titleShort>
+  <ColonialGovernor78.description>Disillusioned by rampant corruption, [PAWN_nameDef] ran for mayor and won. However, the local gangs and their pet officials soon forced [PAWN_objective] out of power.\n\n[PAWN_pronoun] left the community to return to [PAWN_possessive] life as a vigilante.</ColonialGovernor78.description>
+  <!-- ColonySettler53: colony settler => wasteland settler -->
+  <ColonySettler53.title>wasteland settler</ColonySettler53.title>
+  <ColonySettler53.titleShort>settler</ColonySettler53.titleShort>
+  <ColonySettler53.description>[PAWN_nameDef] was a settler in a new colony in the wasteland.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks.</ColonySettler53.description>
+  <!-- CombatNegotiator31: combat negotiator -->
+  <CombatNegotiator31.description>After leaving [PAWN_possessive] settlement, [PAWN_nameDef] took [PAWN_possessive] skills to the wasteland.\n\n[PAWN_pronoun] chose to operate as a hired gun, working for various wasteland settlements, slaver guilds and trading companies. [PAWN_possessive] specialty was negotiation in combat situations.</CombatNegotiator31.description>
+  <!-- ContractMiner86: contract miner => contract scavenger -->
+  <ContractMiner86.title>contract scavenger</ContractMiner86.title>
+  <ContractMiner86.titleShort>contract scavenger</ContractMiner86.titleShort>
+  <ContractMiner86.description>[PAWN_nameDef] moved from job to job, extracting scrap and pre-war valuables in tunnels and ruins. The work was tough and dirty, but [PAWN_pronoun] found it rewarding.</ContractMiner86.description>
+  <!-- CoreworldJeweler19: coreworld jeweler => wasteland jeweler -->
+  <CoreworldJeweler19.title>wasteland jeweler</CoreworldJeweler19.title>
+  <CoreworldJeweler19.titleShort>jeweler</CoreworldJeweler19.titleShort>
+  <CoreworldJeweler19.description>After [PAWN_nameDef] had recovered from all [PAWN_possessive] injuries, [PAWN_pronoun] found that [PAWN_pronoun] had a lot of time and energy to dedicate to [PAWN_possessive] passion: trinket crafting. [PAWN_pronoun] spent years perfecting [PAWN_possessive] art as a jeweler, then left [PAWN_possessive] home to sell [PAWN_possessive] wares across the wasteland.</CoreworldJeweler19.description>
+  <!-- CriminalKingpin36: criminal kingpin -->
+  <CriminalKingpin36.description>[PAWN_nameDef] discovered [PAWN_possessive] gift - people did what [PAWN_pronoun] said, when [PAWN_pronoun] said it. Taking advantage of this, [PAWN_pronoun] set off for the wasteland towns to make a name for [PAWN_objective]self in the criminal underworld.\n\nHaving people do things for [PAWN_objective] taught [PAWN_objective] to avoid manual labor at all costs.</CriminalKingpin36.description>
+  <!-- DoomsdayPariah18: doomsday pariah -->
+  <DoomsdayPariah18.description>[PAWN_nameDef] managed to open a vault of pre-war technology while scavenging a ruin. [PAWN_pronoun] unwittingly triggered a malfunctioning device that devastated all life in a large radius. More interested in the tech than human life, [PAWN_pronoun] departed to find more relics to abuse.</DoomsdayPariah18.description>
+  <!-- DreadedDude58: dreaded dude -->
+  <DreadedDude58.description>Some followers say that [PAWN_nameDef] and [PAWN_possessive] crew of misfits found the fountain of youth, many, many centuries ago, and that they caused the Great War.\n\nThere's even a religion about them, somewhere, involving noodles and meatballs.</DreadedDude58.description>
+  <!-- Engineer40: engineer -->
+  <Engineer40.description>[PAWN_nameDef] found a job as a tinkering engineer in a local trading hub town. Tough local traders forced [PAWN_objective] to learn negotiation skills, and [PAWN_pronoun] made good profits selling refurbished weapons and tools.</Engineer40.description>
+  <!-- Explorer49: explorer -->
+  <Explorer49.description>[PAWN_nameDef] travelled from settlement to settlement, gathering trinkets, stories, and research. [PAWN_pronoun] hoped one day to compile a record of every animal, plant, material and machine and device in the world: The Complete Survivor's Guide to the Wasteland.</Explorer49.description>
+  <!-- ExplorerWriter10: explorer-writer -->
+  <ExplorerWriter10.description>[PAWN_nameDef] travelled from settlement to settlement, gathering trinkets, stories and research.\n\n[PAWN_possessive] goal was to bring together enough knowledge to make a survival guide for future generations.</ExplorerWriter10.description>
+  <!-- FactoryWorker58: factory worker (mules and horses => brahmin) -->
+  <FactoryWorker58.description>[PAWN_nameDef] did menial, unskilled work in an industrial factory. [PAWN_possessive] job also included caring for the brahmin which transported the goods.</FactoryWorker58.description>
+  <!-- FallenOfficial12: fallen official (homeworld => town) -->
+  <FallenOfficial12.description>[PAWN_nameDef] was an official for an autocratic government. When [PAWN_possessive] superiors demanded [PAWN_pronoun] participate in atrocities, [PAWN_nameDef] resigned and escaped from [PAWN_possessive] town with nothing but the clothes on [PAWN_possessive] back.</FallenOfficial12.description>
+  <!-- Flaneur30: flaneur (world => town) -->
+  <Flaneur30.description>[PAWN_nameDef] strolled and sipped [PAWN_possessive] way through the streets and cafes of [PAWN_possessive] town, pursuing freedom at every turn, never becoming attached.\n\nThrough all this time, [PAWN_pronoun] remained distrustful of others. And never took an order from anyone.</Flaneur30.description>
+  <!-- FrontierMarshal27: frontier marshal => frontier sheriff -->
+  <FrontierMarshal27.title>frontier sheriff</FrontierMarshal27.title>
+  <FrontierMarshal27.titleShort>sheriff</FrontierMarshal27.titleShort>
+  <FrontierMarshal27.description>[PAWN_nameDef] was the sheriff of [PAWN_possessive] settlement. [PAWN_pronoun] tried to honorably uphold the law, but the corrupt mayor killed [PAWN_possessive] family and left [PAWN_objective] for dead.\n\nAfter regaining [PAWN_possessive] health, [PAWN_nameDef] arrested the mayor. [PAWN_pronoun] left [PAWN_possessive] settlement and started a new life working to make a difference in the wasteland.</FrontierMarshal27.description>
+  <!-- Fugitive4: fugitive (corporation => faction) -->
+  <Fugitive4.description>[PAWN_nameDef] rebelled against the faction [PAWN_pronoun] worked for. [PAWN_pronoun] failed, and was forced [PAWN_objective] to go on the run.\n\n[PAWN_pronoun] was always on the move, always leaving everything behind. [PAWN_pronoun] tried to gain supporters for [PAWN_possessive] cause, but failed due to [PAWN_possessive] poor social skills.</Fugitive4.description>
+  <!-- GangSoldier39: gang soldier (spacecraft implosion => vehicle crash, cryptostasis => cryostasis, crashlanding... => getting lost in the wasteland) -->
+  <GangSoldier39.description>Living for many years between three raider settlements, [PAWN_nameDef] persevered through many challenges: a vehicle crash, cryostasis, getting lost in the wasteland, and nursing an old man back to health, and many of battles.\n\n[PAWN_pronoun] eventually took control of a violent gang.</GangSoldier39.description>
+  <!-- Gigolo30: gigolo 30 (on several planets => in several towns) -->
+  <Gigolo30.description>[PAWN_nameDef] was used for [PAWN_possessive] body by hundreds of customers in brothels in several towns. [PAWN_pronoun] gained some mental marks and a special kind of street smarts.</Gigolo30.description>
+  <!-- Gigolo68: gigolo 68 -->
+  <Gigolo68.description>[PAWN_nameDef] sold [PAWN_objective]self into slavery for caps to purchase mole rat pizza. [PAWN_pronoun] was then traded to a New Reno family, where [PAWN_pronoun] worked as a male prostitute.\n\nIn a fluke event, [PAWN_pronoun] managed to join other escaping slaves as they hijacked a truck. After fighting with the leader of the slave gang over the last piece of mole rat pizza, [PAWN_nameDef] was thrown off the truck in the middle of nowhere.</Gigolo68.description>
+  <!-- GlitterworldSurgeon15: glitterworld surgeon => vault surgeon -->
+  <GlitterworldSurgeon15.title>vault surgeon</GlitterworldSurgeon15.title>
+  <GlitterworldSurgeon15.titleShort>surgeon</GlitterworldSurgeon15.titleShort>
+  <GlitterworldSurgeon15.description>[PAWN_nameDef] worked as a surgeon in a vault free of disease and hardship, so [PAWN_possessive] job focused on elaborate and creative cosmetic procedures. [PAWN_pronoun] understands human biology deeply, but has never had to remove a tumour or a bullet under battlefield conditions.</GlitterworldSurgeon15.description>
+  <!-- HiredGun70: hired gun -->
+  <HiredGun70.description>[PAWN_nameDef] always wanted to prove [PAWN_pronoun] could make a living without [PAWN_possessive] parents' help. [PAWN_pronoun] did shady jobs that often involved pointing guns at innocent people.\n\n[PAWN_pronoun] eventually made enough caps to pay for a trip on a caravan for a very cheap price. [PAWN_pronoun] discovered why it was so cheap when it was destroyed by raiders.</HiredGun70.description>
+  <!-- HumanComputer83: human computer (industrial-world => wasteland) -->
+  <HumanComputer83.description>[PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. A wasteland dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure.</HumanComputer83.description>
+  <!-- InformationBroker77: information broker (next star system => next settlement) -->
+  <InformationBroker77.description>[PAWN_nameDef] caught a ship to the next settlement and began a life of travel and learning, quickly collecting a massive bank of knowledge from people of all shapes and sizes.\n\n[PAWN_pronoun] learned to sell this knowledge for great profit, and became a powerful broker of information.</InformationBroker77.description>
+  <!-- Inventor6: inventor (homeworld => settlement) -->
+  <Inventor6.description>In [PAWN_possessive] settlement, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies.</Inventor6.description>
+  <!-- LoneTraveler95: lone traveler -->
+  <LoneTraveler95.description>After escaping [PAWN_possessive] settlement with a jury-rigged vehicle, [PAWN_nameDef] traveled to other settlements to experience their beauty.\n\n[PAWN_pronoun] joined vigilante groups and applied the skills [PAWN_pronoun] cultivated back home. [PAWN_pronoun] often warned of the mutant horror [PAWN_pronoun] saw as a child.</LoneTraveler95.description>
+  <!-- MadScientist2: mad scientist 2 -->
+  <MadScientist2.description>[PAWN_nameDef]'s lust for knowledge was only matched by [PAWN_possessive] disdain for anyone who would stand in the way of [PAWN_possessive] research.\n\nTraveling from settlement to settlement, [PAWN_pronoun] sought answers to questions few dared to ask.</MadScientist2.description>
+  <!-- MafiaBoss17: mafia boss (urbworld => urban) -->
+  <MafiaBoss17.description>[PAWN_nameDef] was a high-ranking member of an urban crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.</MafiaBoss17.description>
+  <!-- MarbleDoctor99: marble doctor (on a bomb-blasted world => in the irradiated wasteland) -->
+  <MarbleDoctor99.description>In the irradiated wasteland, first aid is often the only aid.\n\n[PAWN_nameDef] used [PAWN_possessive] medical skills to help the injured and the sick. [PAWN_pronoun] believed that while guns and machines may be powerful, a doctor is even more so.</MarbleDoctor99.description>
+  <!-- MasterChef48: master chef (on a glitterworld => in a wasteland city, explore the stars => explore the wasteland) -->
+  <MasterChef48.description>In a wasteland city, [PAWN_nameDef] found a job washing dishes at a famous restaurant and worked [PAWN_possessive] way up the ranks.\n\nA few years later, [PAWN_possessive] career came to an end when someone poisoned the meal [PAWN_pronoun] was preparing for the mayor. Jobless, [PAWN_pronoun] left to explore the wasteland once again.</MasterChef48.description>
+  <!-- MechanicsEngineer64: mechanics engineer (remove the word corporate) -->
+  <MechanicsEngineer64.description>[PAWN_nameDef] loved solving problems and, with [PAWN_possessive] steady hands and a reputation for quality work, earned a job as a mechanical engineer. [PAWN_pronoun] built and redesigned devices of all shapes and sizes.\n\nEventually, [PAWN_pronoun] was able to pick and choose [PAWN_possessive] clients. [PAWN_pronoun] made several wealthy friends, as well as a few powerful enemies.</MechanicsEngineer64.description>
+  <!-- MedievalFarmOaf58: medieval farm oaf => wasteland farm oaf -->
+  <MedievalFarmOaf58.title>wasteland farm oaf</MedievalFarmOaf58.title>
+  <MedievalFarmOaf58.titleShort>oaf</MedievalFarmOaf58.titleShort>
+  <MedievalFarmOaf58.description>Tilling, hoeing, guiding brahmin carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\n\nWasteland farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life can leave one  incapable of participating in technology-driven activities.</MedievalFarmOaf58.description>
+  <!-- Mercenary20: mercenary 20 (planet => settlement) -->
+  <Mercenary20.description>After escaping [PAWN_possessive] home settlement, [PAWN_nameDef] fell in with a band of mercenaries. [PAWN_pronoun] fought alongside [PAWN_possessive] brothers and sisters in arms for many years.\n\nOne day, they were caught in a fight they couldn't win. Refusing to retreat, [PAWN_nameDef] was shot down by [PAWN_possessive] enemies. [PAWN_pronoun] was alarmed to awake in a heap of corpses, mysteriously unharmed.</Mercenary20.description>
+  <!-- MercenaryCaptain98: mercenary captain (ship => gang, joywires => chems) -->
+  <MercenaryCaptain98.description>[PAWN_nameDef] was in the crew of a mercenary gang. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the chems.</MercenaryCaptain98.description>
+  <!-- MercenaryLeader28: mercenary leader (hijacked trade ships => raided trade caravans) -->
+  <MercenaryLeader28.description>Alone, [PAWN_nameDef] set out to rebuild [PAWN_possessive] father's life's work. [PAWN_pronoun] challenged the leader of a small band of mercenaries and took control, then led the band as they raided trade caravans and stole valuable cargo.\n\n[PAWN_possessive] men mutinied. [PAWN_pronoun] was abandoned, arrested, and sentenced to death.</MercenaryLeader28.description>
+  <!-- MilitiaSoldier79: militia soldier (homeworld => home settlement) -->
+  <MilitiaSoldier79.description>[PAWN_nameDef] joined the militia forces and fought for rights and peace.\n\nAfter [PAWN_possessive] home settlement was unexpectedly destroyed in the wars, [PAWN_pronoun] traveled great distances, seeking a refuge where [PAWN_pronoun] could build a new, free way of life.</MilitiaSoldier79.description>
+  <!-- MobHenchman53: mob henchman (home world => home settlement, slaver ship => slaver gang, urbworld => urban) -->
+  <MobHenchman53.description>After being "saved" from [PAWN_possessive] home settlement by a slaver gang, [PAWN_nameDef] was sold to an urban crime lord, where [PAWN_pronoun] was used as a henchman. [PAWN_pronoun] specialized in low-tech beat-downs and intimidation.</MobHenchman53.description>
+  <!-- MutinousCaptain52: mutinous captain (to the stars => into the wasteland, language => ways) -->
+  <MutinousCaptain52.description>[PAWN_nameDef] was taken into the wasteland by slavers after [PAWN_possessive] tribe was decimated in a raid. Over the years [PAWN_pronoun] learned the ways of [PAWN_possessive] captors, eventually working for them as an interpreter and diplomat.\n\nThe captain only learned of [PAWN_nameDef]'s true cunning when revenge was taken by form of mutiny.</MutinousCaptain52.description>
+  <!-- PirateDoctor0: pirate doctor => raider doctor -->
+  <PirateDoctor0.title>raider doctor</PirateDoctor0.title>
+  <PirateDoctor0.titleShort>bad doc</PirateDoctor0.titleShort>
+  <PirateDoctor0.description>[PAWN_nameDef] had a passion for medicine, but never got any real education. Only underfunded raiders were desperate enough to hire [PAWN_possessive] services, and [PAWN_possessive] surgical patients had about a 50% survival rate.\n\nDespite this, [PAWN_possessive] optimistic attitude drove [PAWN_objective] to keep trying to heal those in need. As long as they paid up front.</PirateDoctor0.description>
+  <!-- PoisonGardener29: poison gardener => wasteland gardener -->
+  <PoisonGardener29.title>wasteland gardener</PoisonGardener29.title>
+  <PoisonGardener29.titleShort>botanist</PoisonGardener29.titleShort>
+  <PoisonGardener29.description>[PAWN_nameDef] spent almost all [PAWN_possessive] time tending to a wasteland garden and became withdrawn from society.\n\nIn that time [PAWN_pronoun] learnt a few safe culinary and medicinal uses for the otherwise deadly plants.</PoisonGardener29.description>
+  <!-- Policeman45: policeman => vault security -->
+  <Policeman45.title>vault security</Policeman45.title>
+  <Policeman45.titleShort>security</Policeman45.titleShort>
+  <Policeman45.titleFemale>vault security</Policeman45.titleFemale>
+  <Policeman45.titleShortFemale>security</Policeman45.titleShortFemale>
+  <Policeman45.description>[PAWN_nameDef] kept the peace as a line officer in a vault social enforcement unit.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting and other police skills.</Policeman45.description>
+  <!-- Roboticist41: roboticist 41 (mechanites and ancient technology => pre-war technology) -->
+  <Roboticist41.description>[PAWN_nameDef] felt more comfortable with robots and artificial intelligences than with organic people, so [PAWN_pronoun] worked as a roboticist. [PAWN_pronoun] took a particular interest in pre-war technology.\n\n[PAWN_nameDef] relied on other people for [PAWN_possessive] basic needs.</Roboticist41.description>
+  <!-- RunawayDancer35: runaway dancer (many worlds => the wasteland, glitterworlds => cities, the rim => the frontier) -->
+  <RunawayDancer35.description>Grown by and for science, [PAWN_nameDef] gave it up. Instead, [PAWN_pronoun] wanted to dance for crowds across the wasteland, from the glamor of the cities to the dangers of the frontier.\n\nSuch work required wearing a smile on [PAWN_possessive] face and a pistol under [PAWN_possessive] costume.</RunawayDancer35.description>
+  <!-- Sheriff52: sheriff (industrial => wasteland) -->
+  <Sheriff52.description>[PAWN_nameDef] was the law enforcer in an isolated wasteland town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout.</Sheriff52.description>
+  <!-- Sightseer70: sightseer (stars => wasteland) -->
+  <Sightseer70.description>[PAWN_nameDef] traveled the wasteland. [PAWN_pronoun] could barely scrape together travel costs doing odd-jobs, but it was all worth it.\n\n[PAWN_pronoun] loved camping in exotic places and learning the patterns of strange wildlife. [PAWN_pronoun] never could focus on intellectual endeavors, as [PAWN_possessive] sightseeing distracted [PAWN_objective] far too much.</Sightseer70.description>
+  <!-- SoleSurvivor85: sole survivor (colony => settlement, mechanoid centipedes => rogue robots) -->
+  <SoleSurvivor85.description>[PAWN_nameDef] lived in a remote settlement. When rogue robots attacked [PAWN_possessive] home and killed [PAWN_possessive] people, [PAWN_pronoun] was the last survivor.</SoleSurvivor85.description>
+  <!-- SpaceBartender0: space bartender => wasteland bartender -->
+  <SpaceBartender0.title>wasteland bartender</SpaceBartender0.title>
+  <SpaceBartender0.titleShort>bartender</SpaceBartender0.titleShort>
+  <SpaceBartender0.description>[PAWN_nameDef] became a bartender in a caravan outpost. [PAWN_pronoun] interacted with and befriended many strangers.\n\nAs time went on, [PAWN_nameDef] used [PAWN_possessive] knowledge of herbs to craft [PAWN_possessive] own strange concoctions for [PAWN_possessive] customers.</SpaceBartender0.description>
+  <!-- SpaceHunter79: space hunter => wasteland hunter -->
+  <SpaceHunter79.title>wasteland hunter</SpaceHunter79.title>
+  <SpaceHunter79.titleShort>hunter</SpaceHunter79.titleShort>
+  <SpaceHunter79.description>Now a man as well as proficient hunter and marksman, [PAWN_nameDef] yearned for more. [PAWN_pronoun] took leave from [PAWN_possessive] home settlement, traveling the great expanse in search of exotic game.</SpaceHunter79.description>
+  <!-- SpaceMerchant97: space merchant => wasteland merchant -->
+  <SpaceMerchant97.title>wasteland merchant</SpaceMerchant97.title>
+  <SpaceMerchant97.titleShort>merchant</SpaceMerchant97.titleShort>
+  <SpaceMerchant97.description>As part of a freelance lifestyle, [PAWN_nameDef] sought to dominate [PAWN_possessive] romantic interests as much as [PAWN_possessive] business adversaries. When [PAWN_pronoun] didn't have [PAWN_possessive] own caravan to lead, [PAWN_pronoun] worked on others for caps.</SpaceMerchant97.description>
+  <!-- SpaceRaider71: space raider => wasteland raider -->
+  <SpaceRaider71.title>wasteland raider</SpaceRaider71.title>
+  <SpaceRaider71.titleShort>raider</SpaceRaider71.titleShort>
+  <SpaceRaider71.description>[PAWN_nameDef] was the leader of a wasteland raider crew. Always on the move, [PAWN_pronoun] became a feared enemy of many settlements.</SpaceRaider71.description>
+  <!-- SpaceStationCook63: space station cook => outpost cook -->
+  <SpaceStationCook63.title>outpost cook</SpaceStationCook63.title>
+  <SpaceStationCook63.titleShort>cook</SpaceStationCook63.titleShort>
+  <SpaceStationCook63.description>The caravan outpost [PAWN_nameDef] came from was far from any settlements, and was in itself understaffed. For this reason, [PAWN_nameDef] was forced to learn how to cook in order to keep the crew alive. While [PAWN_pronoun] appreciated this learning opportunity, [PAWN_pronoun] didn't appreciate the criticism which came with it, and has had self-esteem issues ever since.</SpaceStationCook63.description>
+  <!-- SpaceTechnician29: relay technician => outpost technician -->
+  <SpaceTechnician29.title>outpost technician</SpaceTechnician29.title>
+  <SpaceTechnician29.titleShort>technician</SpaceTechnician29.titleShort>
+  <SpaceTechnician29.description>[PAWN_nameDef] finally managed to flee [PAWN_possessive] criminal life by getting a maintenance job on a nearby caravan outpost. [PAWN_pronoun] performed multiple repairing and building operations. [PAWN_pronoun] also used to participate in basic research activities and often defused co-workers' arguments. [PAWN_pronoun] never liked doing art.</SpaceTechnician29.description>
+  <!-- SpaceTrafficker68: space trafficker => wasteland trafficker -->
+  <SpaceTrafficker68.title>wasteland trafficker</SpaceTrafficker68.title>
+  <SpaceTrafficker68.titleShort>trafficker</SpaceTrafficker68.titleShort>
+  <!-- StationSecurity38: station security => outpost security -->
+  <StationSecurity38.title>outpost security</StationSecurity38.title>
+  <StationSecurity38.titleShort>security</StationSecurity38.titleShort>
+  <StationSecurity38.description>[PAWN_nameDef] was commissioned as a special constable on a network of caravan outposts. There [PAWN_pronoun] prevented smuggling.\n\nOnce, fire broke out in an outpost, and [PAWN_pronoun] saved many from the flames. Since then, [PAWN_pronoun] has avoided fires.</StationSecurity38.description>
+  <!-- StilettoAssassin34: stiletto assassin (system => wasteland) -->
+  <StilettoAssassin34.description>Because of [PAWN_possessive] skills, [PAWN_nameDef] developed a sense of superiority. In time, [PAWN_pronoun] lost [PAWN_possessive] sense of empathy. [PAWN_pronoun] often got into fights, and discovered how easy it is to kill a person.\n\nAfter realizing [PAWN_possessive] talents, [PAWN_pronoun] became one of the most efficient assassins in the wasteland.</StilettoAssassin34.description>
+  <!-- TechnologyDoctor35: soldier-farmer (on her midworld => in her settlement) -->
+  <TechnologyDoctor35.description>[PAWN_nameDef] was a farmer in [PAWN_possessive] settlement, and spent [PAWN_possessive] free time practicing with guns. [PAWN_pronoun] knew how important the skills of farming and shooting would be in hard times, and trained to serve in a local militia.</TechnologyDoctor35.description>
+  <!-- TreasureHunter82: treasure hunter (outlying rimworlds => pre-war ruins) -->
+  <TreasureHunter82.description>[PAWN_nameDef] explored pre-war ruins in hopes of finding rare treasures.\n\nAfter succeeding in finding one legendary sculpture, [PAWN_pronoun] was betrayed by [PAWN_possessive] men. [PAWN_pronoun] survived their treasonous attack, but the sculpture was taken.\n\n[PAWN_pronoun] created the Anvil Mercenary Company to help [PAWN_objective] seek revenge.</TreasureHunter82.description>
+  <!-- UrbworldPimp93: urbworld pimp => urban pimp -->
+  <UrbworldPimp93.title>urban pimp</UrbworldPimp93.title>
+  <UrbworldPimp93.titleShort>pimp</UrbworldPimp93.titleShort>
+  <!-- UrbworldSergeant50: urbworld sergeant => urban sergeant -->
+  <UrbworldSergeant50.title>urban sergeant</UrbworldSergeant50.title>
+  <UrbworldSergeant50.titleShort>sergeant</UrbworldSergeant50.titleShort>
+  <!-- UrbworldSexSlave25: urbworld sex slave => urban sex slave -->
+  <UrbworldSexSlave25.title>urban sex slave</UrbworldSexSlave25.title>
+  <UrbworldSexSlave25.titleShort>sex slave</UrbworldSexSlave25.titleShort>
+  <UrbworldSexSlave25.description>[PAWN_nameDef] was sold into sexual slavery. Being inhumanly attractive and too weak to rebel against [PAWN_possessive] masters, [PAWN_pronoun] was passed between dozens of owners and knew nothing of freedom.</UrbworldSexSlave25.description>
+  <!-- Vagabond73: vagabond (on a dangerous planet => with no memories) -->
+  <Vagabond73.description>[PAWN_nameDef] awoke with no memories, no resources and few survival skills. [PAWN_pronoun] bounced between camps, doing whatever work needed to be done, just to see the sun rise once more.</Vagabond73.description>
+  <!-- VengefulNomad67: vengeful nomad (king => dictator) -->
+  <VengefulNomad67.description>After refusing the wild demands of a tyrannical dictator, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n[PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.</VengefulNomad67.description>
+  <!-- WanderingHealer52: wandering healer (on an otherwise peaceful midworld => in an otherwise peaceful settlement, rimworlds => wasteland) -->
+  <WanderingHealer52.description>[PAWN_nameDef] studied to be a doctor, but was dissatisfied with [PAWN_possessive] practice in an otherwise peaceful settlement.\n\nInstead, [PAWN_pronoun] chose to pull up roots and travel to the wasteland in order to care for people who needed [PAWN_objective] most.</WanderingHealer52.description>
+  <!-- Mailman2: mail carrier => courier -->
+  <Mailman2.title>courier</Mailman2.title>
+  <Mailman2.titleShort>courier</Mailman2.titleShort>
+  <Mailman2.titleFemale>courier</Mailman2.titleFemale>
+  <Mailman2.titleShortFemale>courier</Mailman2.titleShortFemale>
+  <!-- ExpertHandyman8: expert handyman (ship's AI persona => a robot's AI) -->
+  <ExpertHandyman8.description>[PAWN_nameDef] worked as a traveling engineer. [PAWN_pronoun] fixed things ranging from a simple communications array to the intricate software harness enveloping a robot's AI. Nothing is beyond repair for [PAWN_objective].</ExpertHandyman8.description>
+</LanguageData>

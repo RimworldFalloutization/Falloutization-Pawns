@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Fallout title/baseDesc rewrites for kept Offworld VBE stories.
+         Unwanted VBE stories are fully excluded in RemoveVEBackstories.xml.
+         Kept-unadapted VBE Offworld stories are not rewritten here.
+    -->
+    <!-- VBE_AdventurousDreamer: adventurous dreamer (fantastic worlds => forgotten ruins) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_AdventurousDreamer"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood consuming outlandish fiction in all its forms, dreaming of exploring forgotten ruins and finding treasures of every variety. Though [PAWN_pronoun] settled more into the mundanity of [PAWN_possessive] life as time passed, [PAWN_pronoun] never lost that spark of hope for something more exciting.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_Freak: freak -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_Freak"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was born heavily deformed. [PAWN_pronoun] was sold to a circus and travelled the wasteland. There, people paid to watch [PAWN_objective] perform various shows. One day, as the company was travelling to a nearby settlement, [PAWN_nameDef] managed to escape.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_NatureLover: nature lover (rabbit => rad rabbit) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_NatureLover"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] has an inherent disdain for being told what [PAWN_pronoun] can and cannot do, and when [PAWN_pronoun] was a child [PAWN_pronoun] was told that [PAWN_pronoun] couldn't just adopt a random rad rabbit. With almost righteous indignation, [PAWN_pronoun] took care of [PAWN_possessive] pet rad rabbit better than [PAWN_possessive] own well-being.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_PirateKid: pirate kid => scavenger kid -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_PirateKid"]/title</xpath>
+        <value>
+            <title>scavenger kid</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_PirateKid"]/titleShort</xpath>
+        <value>
+            <titleShort>scavenger</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_PirateKid"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was kidnapped by scavengers at a young age. [PAWN_possessive] small size allowed [PAWN_objective] to fit into tiny maintenance spaces on pre-war ruins to steal valuable electronic components. Coincidentally,  [PAWN_pronoun] also became quite adept at treating electrical burns.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_PodChild: pod child -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_PodChild"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was born right before the bombs fell. [PAWN_pronoun] was put in cryosleep and survived the destruction. After centuries of deep sleep, [PAWN_pronoun] was found by a wasteland community. [PAWN_nameDef] tries to keep up-beat about life due to sheer luck that was in play for [PAWN_possessive] survival.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_Simraised: sim-raised (environmentally sealed dome => automated vault) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_Simraised"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] grew up in a simulated environment composed of augmented reality and virtual reality elements inside a robot-tended, automated vault. While safe and idyllic, this placid lifestyle left [PAWN_objective] wanting something more in life.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_ArchotechFanatic: archotech fanatic => pre-war tech fanatic -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_ArchotechFanatic"]/title</xpath>
+        <value>
+            <title>pre-war tech fanatic</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_ArchotechFanatic"]/titleShort</xpath>
+        <value>
+            <titleShort>tech fanatic</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_ArchotechFanatic"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] claims that [PAWN_possessive] mind has been visited by an omnipotent entity that manifests itself through advanced pre-war tech objects. While [PAWN_nameDef] shows great affinity towards technology and research, [PAWN_pronoun] harbors equally strong disgust when it comes to plants and animals.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_CannibalisticSurgeon: cannibalistic surgeon (institution => clinic, a distant rimworld => the wasteland) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_CannibalisticSurgeon"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was a surgeon at a prestigious clinic until [PAWN_possessive] tendency to take 'culinary liberties' with the deceased was revealed. Rather than damage [PAWN_possessive] reputation by going public, [PAWN_pronoun] was offered a one way trip to the wasteland as a 'retirement package'.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_CargoHandler: cargo handler (cargo bay => brahmin cargo, space vessel => trade caravan) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_CargoHandler"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was responsible for managing the brahmin cargo of a trade caravan, ensuring supplies were securely stowed and inventory was accurately tracked. [PAWN_pronoun] was physically strong and highly organized, but [PAWN_pronoun] had little patience for detailed documentation or scholarly pursuits.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_DesertSurvivor: desert survivor (on a hostile desert planet => in a hostile desert) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_DesertSurvivor"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef]'s sworn enemies left [PAWN_objective] to die in a hostile desert. Despite all the odds, [PAWN_pronoun] survived in such an environment and adapted to it. Due to spending a lot of time living in the wastelands, [PAWN_nameDef] has no knowledge about plants.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_FanaticInventor: fanatic inventor (Urbworld home => home town, drones => robots) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_FanaticInventor"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef]'s love for machinery and engineering is downright fanatic. In [PAWN_possessive] home town, [PAWN_pronoun] made illegal robots, guns and machines, often being chased by the police. [PAWN_nameDef] doesn't see nature as anything other than a source of materials to be refined into something useful.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_GalacticMedic: galactic medic => caravan medic -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_GalacticMedic"]/title</xpath>
+        <value>
+            <title>caravan medic</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_GalacticMedic"]/titleShort</xpath>
+        <value>
+            <titleShort>medic</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_GalacticMedic"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] served as the medic on a caravan, treating everything from heatstroke to injuries from wildlife attacks. [PAWN_possessive] knowledge of medicine was unparalleled, but [PAWN_pronoun] had no head for research or complex theories.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_HumanSupremacist: human supremacist (gene-modification and the creation of xenohumans => mutants, baseline, unmodified => pure) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_HumanSupremacist"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] is fervently against mutants. [PAWN_pronoun] believes that pure humans have superior minds and spirits in comparison. Though prejudiced, [PAWN_possessive] arguments were well-rehearsed and spoken with authority.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_IndustrialTinkerer: industrial tinkerer => tinkerer -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_IndustrialTinkerer"]/title</xpath>
+        <value>
+            <title>tinkerer</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_IndustrialTinkerer"]/titleShort</xpath>
+        <value>
+            <titleShort>tinkerer</titleShort>
+        </value>
+    </Operation>
+
+    <!-- VBE_RodentRancher: rodent rancher (overpopulated urbworld city => urban wasteland settlement, processed foods => scavenged pre-war foods) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_RodentRancher"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] spent a lot of [PAWN_possessive] time working on a rodent farm in an urban settlement out in the wasteland. Due to limited spacing and mostly scavenged pre-war foods, [PAWN_pronoun] found great success in offering actual meat for those who wanted a break from mediocrity. Granted, [PAWN_pronoun] ended up on the run because [PAWN_possessive] Ratburgers attracted the taxman, but [PAWN_pronoun] found it fun while it lasted.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_IndustrialGunsmith: industrial gunsmith => gunsmith -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_IndustrialGunsmith"]/title</xpath>
+        <value>
+            <title>gunsmith</title>
+        </value>
+    </Operation>
+
+    <!-- VBE_SupplyCoordinator: colony's => settlement's -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_SupplyCoordinator"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was essential in managing the settlement's logistics and supply chains, ensuring the efficient flow of goods and materials. Highly organized but not particularly hands-on, [PAWN_pronoun] steered clear of direct care roles and skilled manual work.</baseDesc>
+        </value>
+    </Operation>
+
+</Patch>

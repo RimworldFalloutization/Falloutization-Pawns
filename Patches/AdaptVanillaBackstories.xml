@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Fallout title/description rewrites for kept vanilla+DLC Offworld/Outlander stories.
+         Unwanted stories are fully excluded in RemoveVanillaBackstories.xml.
+         Kept-unadapted stories are not rewritten here.
+         VBE adaptations live in AdaptVEBackstories.xml.
+    -->
+    <!-- ConventChild16: convent child -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ConventChild16"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was brought up in a pacifistic cult. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical and violence immoral.</description>
+        </value>
+    </Operation>
+
+    <!-- TechScholar75: farm kid -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="TechScholar75"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] grew up with a group of wasteland farmers. They helped [PAWN_objective] practice shooting every single day, and passed on some basic farming skills. They also taught [PAWN_nameDef] how to focus on working hard with [PAWN_possessive] hands instead of getting distracted by pre-war machines.</description>
+        </value>
+    </Operation>
+
+    <!-- IndustrialOrphan13: industrial orphan => indentured orphan -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="IndustrialOrphan13"]/title</xpath>
+        <value>
+            <title>indentured orphan</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="IndustrialOrphan13"]/titleShort</xpath>
+        <value>
+            <titleShort>orphan</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="IndustrialOrphan13"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_possessive] earliest memories were of drudgery in the scrapyards and workhouses of [PAWN_possessive] employer.\n\nBecause of this, [PAWN_pronoun] never received a proper education.</description>
+        </value>
+    </Operation>
+
+    <!-- MedievalSlave49: medieval slave => wasteland slave -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MedievalSlave49"]/title</xpath>
+        <value>
+            <title>wasteland slave</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MedievalSlave49"]/titleShort</xpath>
+        <value>
+            <titleShort>slave</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MedievalSlave49"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] grew up pulling carts and scavenging in the wasteland. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's leash.\n\n[PAWN_pronoun] didn't learn to read until age nine.</description>
+        </value>
+    </Operation>
+
+    <!-- ShelterChild50: shelter kid => vault kid -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ShelterChild50"]/title</xpath>
+        <value>
+            <title>vault kid</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ShelterChild50"]/titleShort</xpath>
+        <value>
+            <titleShort>vaultkid</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ShelterChild50"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] grew up in a vault deep underground. [PAWN_pronoun] received a comprehensive education, but had no opportunity to do physical labour.</description>
+        </value>
+    </Operation>
+
+    <!-- StoryWriter67: story writer -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="StoryWriter67"]/description</xpath>
+        <value>
+            <description>As a child, [PAWN_nameDef] was fascinated with the few books [PAWN_pronoun] could get [PAWN_possessive] hands on in the wasteland. With no way to get more books to read, [PAWN_pronoun] decided to fill the gap by writing [PAWN_possessive] own stories instead.</description>
+        </value>
+    </Operation>
+
+    <!-- UrbworldUrchin61: city urchin => urban urchin -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldUrchin61"]/title</xpath>
+        <value>
+            <title>urban urchin</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldUrchin61"]/titleShort</xpath>
+        <value>
+            <titleShort>urchin</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldUrchin61"]/description</xpath>
+        <value>
+            <description>Ruins of pre-war cities are labyrinths of rust, radiation and mutants. [PAWN_nameDef] grew up in the deep reaches of one of them and had to fight for every scrap of food.</description>
+        </value>
+    </Operation>
+
+    <!-- WreckageExplorer93: wreckage explorer => ruin explorer -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="WreckageExplorer93"]/title</xpath>
+        <value>
+            <title>ruin explorer</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="WreckageExplorer93"]/titleShort</xpath>
+        <value>
+            <titleShort>explorer</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="WreckageExplorer93"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was tasked with watching [PAWN_possessive] family's herds, but often shirked [PAWN_possessive] duties to go exploring the pre-war ruins scattered around the wasteland.</description>
+        </value>
+    </Operation>
+
+    <!-- Adventurer19: adventurer -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Adventurer19"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef]'s thirst for adventure took [PAWN_objective] all over the wasteland. [PAWN_pronoun] visited the most vibrant settlements and the darkest irradiated ruins in [PAWN_possessive] quest to find artifacts of the past and excitement.\n\n[PAWN_pronoun] worked as little as possible, often skirting ethical boundaries to make a quick buck. Among all jobs, [PAWN_pronoun] hated cooking the most.</description>
+        </value>
+    </Operation>
+
+    <!-- AdventurousWeirdo55: adventurous weirdo -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="AdventurousWeirdo55"]/description</xpath>
+        <value>
+            <description>A creative but strange individual, [PAWN_nameDef] dedicated [PAWN_possessive] life to [PAWN_possessive] twin passions of pre-war history and high technology.\n\n[PAWN_pronoun] was fascinated by the idea of becoming a 'paladin' with power armor and a giant ripper.</description>
+        </value>
+    </Operation>
+
+    <!-- ArtifactHunter48: artifact hunter -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ArtifactHunter48"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] became depressed and lost interest in life. [PAWN_pronoun] travelled the wasteland, searching for pre-war artifacts in the hope that they would cure the pain in [PAWN_possessive] soul.\n\nA steady trigger finger and careful planning kept [PAWN_nameDef] alive.</description>
+        </value>
+    </Operation>
+
+    <!-- BountyHunter17: bounty hunter 17 -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="BountyHunter17"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was a self-employed bounty hunter. [PAWN_pronoun] spent [PAWN_possessive] days hunting raiders and collecting bounties.</description>
+        </value>
+    </Operation>
+
+    <!-- Brigand68: brigand => raider -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Brigand68"]/title</xpath>
+        <value>
+            <title>raider</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Brigand68"]/titleShort</xpath>
+        <value>
+            <titleShort>raider</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Brigand68"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] ran with a gang of raiders [PAWN_pronoun] called friends. [PAWN_pronoun] even had a gang of [PAWN_possessive] own - The Dung Muckers.</description>
+        </value>
+    </Operation>
+
+    <!-- Chemist78: chemist 78 -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Chemist78"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was a renowned chemist in a thriving town.\n\nAfter performing inhumane experiments that turned men into mutants, [PAWN_pronoun] was arrested and banished into the wasteland.</description>
+        </value>
+    </Operation>
+
+    <!-- ColiseumFighter22: coliseum fighter => pit fighter -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColiseumFighter22"]/title</xpath>
+        <value>
+            <title>pit fighter</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColiseumFighter22"]/titleShort</xpath>
+        <value>
+            <titleShort>fighter</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColiseumFighter22"]/description</xpath>
+        <value>
+            <description>Applying the knowledge that [PAWN_pronoun] gained from years around fighters, [PAWN_pronoun] became a successful gladiator in the fighting pits that [PAWN_pronoun] once cleaned.</description>
+        </value>
+    </Operation>
+
+    <!-- ColonialGovernor78: colonial governor => town mayor -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColonialGovernor78"]/title</xpath>
+        <value>
+            <title>town mayor</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColonialGovernor78"]/titleShort</xpath>
+        <value>
+            <titleShort>mayor</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColonialGovernor78"]/description</xpath>
+        <value>
+            <description>Disillusioned by rampant corruption, [PAWN_nameDef] ran for mayor and won. However, the local gangs and their pet officials soon forced [PAWN_objective] out of power.\n\n[PAWN_pronoun] left the community to return to [PAWN_possessive] life as a vigilante.</description>
+        </value>
+    </Operation>
+
+    <!-- ColonySettler53: colony settler => wasteland settler -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColonySettler53"]/title</xpath>
+        <value>
+            <title>wasteland settler</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColonySettler53"]/titleShort</xpath>
+        <value>
+            <titleShort>settler</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ColonySettler53"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was a settler in a new colony in the wasteland.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks.</description>
+        </value>
+    </Operation>
+
+    <!-- CombatNegotiator31: combat negotiator -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CombatNegotiator31"]/description</xpath>
+        <value>
+            <description>After leaving [PAWN_possessive] settlement, [PAWN_nameDef] took [PAWN_possessive] skills to the wasteland.\n\n[PAWN_pronoun] chose to operate as a hired gun, working for various wasteland settlements, slaver guilds and trading companies. [PAWN_possessive] specialty was negotiation in combat situations.</description>
+        </value>
+    </Operation>
+
+    <!-- ContractMiner86: contract miner => contract scavenger -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ContractMiner86"]/title</xpath>
+        <value>
+            <title>contract scavenger</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ContractMiner86"]/titleShort</xpath>
+        <value>
+            <titleShort>contract scavenger</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ContractMiner86"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] moved from job to job, extracting scrap and pre-war valuables in tunnels and ruins. The work was tough and dirty, but [PAWN_pronoun] found it rewarding.</description>
+        </value>
+    </Operation>
+
+    <!-- CoreworldJeweler19: coreworld jeweler => wasteland jeweler -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CoreworldJeweler19"]/title</xpath>
+        <value>
+            <title>wasteland jeweler</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CoreworldJeweler19"]/titleShort</xpath>
+        <value>
+            <titleShort>jeweler</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CoreworldJeweler19"]/description</xpath>
+        <value>
+            <description>After [PAWN_nameDef] had recovered from all [PAWN_possessive] injuries, [PAWN_pronoun] found that [PAWN_pronoun] had a lot of time and energy to dedicate to [PAWN_possessive] passion: trinket crafting. [PAWN_pronoun] spent years perfecting [PAWN_possessive] art as a jeweler, then left [PAWN_possessive] home to sell [PAWN_possessive] wares across the wasteland.</description>
+        </value>
+    </Operation>
+
+    <!-- CriminalKingpin36: criminal kingpin -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CriminalKingpin36"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] discovered [PAWN_possessive] gift - people did what [PAWN_pronoun] said, when [PAWN_pronoun] said it. Taking advantage of this, [PAWN_pronoun] set off for the wasteland towns to make a name for [PAWN_objective]self in the criminal underworld.\n\nHaving people do things for [PAWN_objective] taught [PAWN_objective] to avoid manual labor at all costs.</description>
+        </value>
+    </Operation>
+
+    <!-- DoomsdayPariah18: doomsday pariah -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="DoomsdayPariah18"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] managed to open a vault of pre-war technology while scavenging a ruin. [PAWN_pronoun] unwittingly triggered a malfunctioning device that devastated all life in a large radius. More interested in the tech than human life, [PAWN_pronoun] departed to find more relics to abuse.</description>
+        </value>
+    </Operation>
+
+    <!-- DreadedDude58: dreaded dude -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="DreadedDude58"]/description</xpath>
+        <value>
+            <description>Some followers say that [PAWN_nameDef] and [PAWN_possessive] crew of misfits found the fountain of youth, many, many centuries ago, and that they caused the Great War.\n\nThere's even a religion about them, somewhere, involving noodles and meatballs.</description>
+        </value>
+    </Operation>
+
+    <!-- Engineer40: engineer -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Engineer40"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] found a job as a tinkering engineer in a local trading hub town. Tough local traders forced [PAWN_objective] to learn negotiation skills, and [PAWN_pronoun] made good profits selling refurbished weapons and tools.</description>
+        </value>
+    </Operation>
+
+    <!-- Explorer49: explorer -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Explorer49"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] travelled from settlement to settlement, gathering trinkets, stories, and research. [PAWN_pronoun] hoped one day to compile a record of every animal, plant, material and machine and device in the world: The Complete Survivor's Guide to the Wasteland.</description>
+        </value>
+    </Operation>
+
+    <!-- ExplorerWriter10: explorer-writer -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ExplorerWriter10"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] travelled from settlement to settlement, gathering trinkets, stories and research.\n\n[PAWN_possessive] goal was to bring together enough knowledge to make a survival guide for future generations.</description>
+        </value>
+    </Operation>
+
+    <!-- FactoryWorker58: factory worker (mules and horses => brahmin) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="FactoryWorker58"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] did menial, unskilled work in an industrial factory. [PAWN_possessive] job also included caring for the brahmin which transported the goods.</description>
+        </value>
+    </Operation>
+
+    <!-- FallenOfficial12: fallen official (homeworld => town) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="FallenOfficial12"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was an official for an autocratic government. When [PAWN_possessive] superiors demanded [PAWN_pronoun] participate in atrocities, [PAWN_nameDef] resigned and escaped from [PAWN_possessive] town with nothing but the clothes on [PAWN_possessive] back.</description>
+        </value>
+    </Operation>
+
+    <!-- Flaneur30: flaneur (world => town) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Flaneur30"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] strolled and sipped [PAWN_possessive] way through the streets and cafes of [PAWN_possessive] town, pursuing freedom at every turn, never becoming attached.\n\nThrough all this time, [PAWN_pronoun] remained distrustful of others. And never took an order from anyone.</description>
+        </value>
+    </Operation>
+
+    <!-- FrontierMarshal27: frontier marshal => frontier sheriff -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="FrontierMarshal27"]/title</xpath>
+        <value>
+            <title>frontier sheriff</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="FrontierMarshal27"]/titleShort</xpath>
+        <value>
+            <titleShort>sheriff</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="FrontierMarshal27"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was the sheriff of [PAWN_possessive] settlement. [PAWN_pronoun] tried to honorably uphold the law, but the corrupt mayor killed [PAWN_possessive] family and left [PAWN_objective] for dead.\n\nAfter regaining [PAWN_possessive] health, [PAWN_nameDef] arrested the mayor. [PAWN_pronoun] left [PAWN_possessive] settlement and started a new life working to make a difference in the wasteland.</description>
+        </value>
+    </Operation>
+
+    <!-- Fugitive4: fugitive (corporation => faction) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Fugitive4"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] rebelled against the faction [PAWN_pronoun] worked for. [PAWN_pronoun] failed, and was forced [PAWN_objective] to go on the run.\n\n[PAWN_pronoun] was always on the move, always leaving everything behind. [PAWN_pronoun] tried to gain supporters for [PAWN_possessive] cause, but failed due to [PAWN_possessive] poor social skills.</description>
+        </value>
+    </Operation>
+
+    <!-- GangSoldier39: gang soldier (spacecraft implosion => vehicle crash, cryptostasis => cryostasis, crashlanding... => getting lost in the wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="GangSoldier39"]/description</xpath>
+        <value>
+            <description>Living for many years between three raider settlements, [PAWN_nameDef] persevered through many challenges: a vehicle crash, cryostasis, getting lost in the wasteland, and nursing an old man back to health, and many of battles.\n\n[PAWN_pronoun] eventually took control of a violent gang.</description>
+        </value>
+    </Operation>
+
+    <!-- Gigolo30: gigolo 30 (on several planets => in several towns) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Gigolo30"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was used for [PAWN_possessive] body by hundreds of customers in brothels in several towns. [PAWN_pronoun] gained some mental marks and a special kind of street smarts.</description>
+        </value>
+    </Operation>
+
+    <!-- Gigolo68: gigolo 68 -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Gigolo68"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] sold [PAWN_objective]self into slavery for caps to purchase mole rat pizza. [PAWN_pronoun] was then traded to a New Reno family, where [PAWN_pronoun] worked as a male prostitute.\n\nIn a fluke event, [PAWN_pronoun] managed to join other escaping slaves as they hijacked a truck. After fighting with the leader of the slave gang over the last piece of mole rat pizza, [PAWN_nameDef] was thrown off the truck in the middle of nowhere.</description>
+        </value>
+    </Operation>
+
+    <!-- GlitterworldSurgeon15: glitterworld surgeon => vault surgeon -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="GlitterworldSurgeon15"]/title</xpath>
+        <value>
+            <title>vault surgeon</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="GlitterworldSurgeon15"]/titleShort</xpath>
+        <value>
+            <titleShort>surgeon</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="GlitterworldSurgeon15"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] worked as a surgeon in a vault free of disease and hardship, so [PAWN_possessive] job focused on elaborate and creative cosmetic procedures. [PAWN_pronoun] understands human biology deeply, but has never had to remove a tumour or a bullet under battlefield conditions.</description>
+        </value>
+    </Operation>
+
+    <!-- HiredGun70: hired gun -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="HiredGun70"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] always wanted to prove [PAWN_pronoun] could make a living without [PAWN_possessive] parents' help. [PAWN_pronoun] did shady jobs that often involved pointing guns at innocent people.\n\n[PAWN_pronoun] eventually made enough caps to pay for a trip on a caravan for a very cheap price. [PAWN_pronoun] discovered why it was so cheap when it was destroyed by raiders.</description>
+        </value>
+    </Operation>
+
+    <!-- HumanComputer83: human computer (industrial-world => wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="HumanComputer83"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. A wasteland dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure.</description>
+        </value>
+    </Operation>
+
+    <!-- InformationBroker77: information broker (next star system => next settlement) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="InformationBroker77"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] caught a ship to the next settlement and began a life of travel and learning, quickly collecting a massive bank of knowledge from people of all shapes and sizes.\n\n[PAWN_pronoun] learned to sell this knowledge for great profit, and became a powerful broker of information.</description>
+        </value>
+    </Operation>
+
+    <!-- Inventor6: inventor (homeworld => settlement) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Inventor6"]/description</xpath>
+        <value>
+            <description>In [PAWN_possessive] settlement, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies.</description>
+        </value>
+    </Operation>
+
+    <!-- LoneTraveler95: lone traveler -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="LoneTraveler95"]/description</xpath>
+        <value>
+            <description>After escaping [PAWN_possessive] settlement with a jury-rigged vehicle, [PAWN_nameDef] traveled to other settlements to experience their beauty.\n\n[PAWN_pronoun] joined vigilante groups and applied the skills [PAWN_pronoun] cultivated back home. [PAWN_pronoun] often warned of the mutant horror [PAWN_pronoun] saw as a child.</description>
+        </value>
+    </Operation>
+
+    <!-- MadScientist2: mad scientist 2 -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MadScientist2"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef]'s lust for knowledge was only matched by [PAWN_possessive] disdain for anyone who would stand in the way of [PAWN_possessive] research.\n\nTraveling from settlement to settlement, [PAWN_pronoun] sought answers to questions few dared to ask.</description>
+        </value>
+    </Operation>
+
+    <!-- MafiaBoss17: mafia boss (urbworld => urban) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MafiaBoss17"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was a high-ranking member of an urban crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.</description>
+        </value>
+    </Operation>
+
+    <!-- MarbleDoctor99: marble doctor (on a bomb-blasted world => in the irradiated wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MarbleDoctor99"]/description</xpath>
+        <value>
+            <description>In the irradiated wasteland, first aid is often the only aid.\n\n[PAWN_nameDef] used [PAWN_possessive] medical skills to help the injured and the sick. [PAWN_pronoun] believed that while guns and machines may be powerful, a doctor is even more so.</description>
+        </value>
+    </Operation>
+
+    <!-- MasterChef48: master chef (on a glitterworld => in a wasteland city, explore the stars => explore the wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MasterChef48"]/description</xpath>
+        <value>
+            <description>In a wasteland city, [PAWN_nameDef] found a job washing dishes at a famous restaurant and worked [PAWN_possessive] way up the ranks.\n\nA few years later, [PAWN_possessive] career came to an end when someone poisoned the meal [PAWN_pronoun] was preparing for the mayor. Jobless, [PAWN_pronoun] left to explore the wasteland once again.</description>
+        </value>
+    </Operation>
+
+    <!-- MechanicsEngineer64: mechanics engineer (remove the word corporate) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MechanicsEngineer64"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] loved solving problems and, with [PAWN_possessive] steady hands and a reputation for quality work, earned a job as a mechanical engineer. [PAWN_pronoun] built and redesigned devices of all shapes and sizes.\n\nEventually, [PAWN_pronoun] was able to pick and choose [PAWN_possessive] clients. [PAWN_pronoun] made several wealthy friends, as well as a few powerful enemies.</description>
+        </value>
+    </Operation>
+
+    <!-- MedievalFarmOaf58: medieval farm oaf => wasteland farm oaf -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MedievalFarmOaf58"]/title</xpath>
+        <value>
+            <title>wasteland farm oaf</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MedievalFarmOaf58"]/titleShort</xpath>
+        <value>
+            <titleShort>oaf</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MedievalFarmOaf58"]/description</xpath>
+        <value>
+            <description>Tilling, hoeing, guiding brahmin carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\n\nWasteland farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life can leave one  incapable of participating in technology-driven activities.</description>
+        </value>
+    </Operation>
+
+    <!-- Mercenary20: mercenary 20 (planet => settlement) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Mercenary20"]/description</xpath>
+        <value>
+            <description>After escaping [PAWN_possessive] home settlement, [PAWN_nameDef] fell in with a band of mercenaries. [PAWN_pronoun] fought alongside [PAWN_possessive] brothers and sisters in arms for many years.\n\nOne day, they were caught in a fight they couldn't win. Refusing to retreat, [PAWN_nameDef] was shot down by [PAWN_possessive] enemies. [PAWN_pronoun] was alarmed to awake in a heap of corpses, mysteriously unharmed.</description>
+        </value>
+    </Operation>
+
+    <!-- MercenaryCaptain98: mercenary captain (ship => gang, joywires => chems) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MercenaryCaptain98"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was in the crew of a mercenary gang. Disciplined and confident, [PAWN_pronoun] quickly rose through the ranks and gained friends.\n\nIn [PAWN_possessive] time as a mercenary captain, [PAWN_pronoun] was known for being gregarious and calm - possibly thanks to the chems.</description>
+        </value>
+    </Operation>
+
+    <!-- MercenaryLeader28: mercenary leader (hijacked trade ships => raided trade caravans) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MercenaryLeader28"]/description</xpath>
+        <value>
+            <description>Alone, [PAWN_nameDef] set out to rebuild [PAWN_possessive] father's life's work. [PAWN_pronoun] challenged the leader of a small band of mercenaries and took control, then led the band as they raided trade caravans and stole valuable cargo.\n\n[PAWN_possessive] men mutinied. [PAWN_pronoun] was abandoned, arrested, and sentenced to death.</description>
+        </value>
+    </Operation>
+
+    <!-- MilitiaSoldier79: militia soldier (homeworld => home settlement) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MilitiaSoldier79"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] joined the militia forces and fought for rights and peace.\n\nAfter [PAWN_possessive] home settlement was unexpectedly destroyed in the wars, [PAWN_pronoun] traveled great distances, seeking a refuge where [PAWN_pronoun] could build a new, free way of life.</description>
+        </value>
+    </Operation>
+
+    <!-- MobHenchman53: mob henchman (home world => home settlement, slaver ship => slaver gang, urbworld => urban) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MobHenchman53"]/description</xpath>
+        <value>
+            <description>After being "saved" from [PAWN_possessive] home settlement by a slaver gang, [PAWN_nameDef] was sold to an urban crime lord, where [PAWN_pronoun] was used as a henchman. [PAWN_pronoun] specialized in low-tech beat-downs and intimidation.</description>
+        </value>
+    </Operation>
+
+    <!-- MutinousCaptain52: mutinous captain (to the stars => into the wasteland, language => ways) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MutinousCaptain52"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was taken into the wasteland by slavers after [PAWN_possessive] tribe was decimated in a raid. Over the years [PAWN_pronoun] learned the ways of [PAWN_possessive] captors, eventually working for them as an interpreter and diplomat.\n\nThe captain only learned of [PAWN_nameDef]'s true cunning when revenge was taken by form of mutiny.</description>
+        </value>
+    </Operation>
+
+    <!-- PirateDoctor0: pirate doctor => raider doctor -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="PirateDoctor0"]/title</xpath>
+        <value>
+            <title>raider doctor</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="PirateDoctor0"]/titleShort</xpath>
+        <value>
+            <titleShort>bad doc</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="PirateDoctor0"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] had a passion for medicine, but never got any real education. Only underfunded raiders were desperate enough to hire [PAWN_possessive] services, and [PAWN_possessive] surgical patients had about a 50% survival rate.\n\nDespite this, [PAWN_possessive] optimistic attitude drove [PAWN_objective] to keep trying to heal those in need. As long as they paid up front.</description>
+        </value>
+    </Operation>
+
+    <!-- PoisonGardener29: poison gardener => wasteland gardener -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="PoisonGardener29"]/title</xpath>
+        <value>
+            <title>wasteland gardener</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="PoisonGardener29"]/titleShort</xpath>
+        <value>
+            <titleShort>botanist</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="PoisonGardener29"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] spent almost all [PAWN_possessive] time tending to a wasteland garden and became withdrawn from society.\n\nIn that time [PAWN_pronoun] learnt a few safe culinary and medicinal uses for the otherwise deadly plants.</description>
+        </value>
+    </Operation>
+
+    <!-- Policeman45: policeman => vault security -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Policeman45"]/title</xpath>
+        <value>
+            <title>vault security</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Policeman45"]/titleShort</xpath>
+        <value>
+            <titleShort>security</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Policeman45"]/titleFemale</xpath>
+        <value>
+            <titleFemale>vault security</titleFemale>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Policeman45"]/titleShortFemale</xpath>
+        <value>
+            <titleShortFemale>security</titleShortFemale>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Policeman45"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] kept the peace as a line officer in a vault social enforcement unit.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting and other police skills.</description>
+        </value>
+    </Operation>
+
+    <!-- Roboticist41: roboticist 41 (mechanites and ancient technology => pre-war technology) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Roboticist41"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] felt more comfortable with robots and artificial intelligences than with organic people, so [PAWN_pronoun] worked as a roboticist. [PAWN_pronoun] took a particular interest in pre-war technology.\n\n[PAWN_nameDef] relied on other people for [PAWN_possessive] basic needs.</description>
+        </value>
+    </Operation>
+
+    <!-- RunawayDancer35: runaway dancer (many worlds => the wasteland, glitterworlds => cities, the rim => the frontier) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="RunawayDancer35"]/description</xpath>
+        <value>
+            <description>Grown by and for science, [PAWN_nameDef] gave it up. Instead, [PAWN_pronoun] wanted to dance for crowds across the wasteland, from the glamor of the cities to the dangers of the frontier.\n\nSuch work required wearing a smile on [PAWN_possessive] face and a pistol under [PAWN_possessive] costume.</description>
+        </value>
+    </Operation>
+
+    <!-- Sheriff52: sheriff (industrial => wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Sheriff52"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was the law enforcer in an isolated wasteland town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout.</description>
+        </value>
+    </Operation>
+
+    <!-- Sightseer70: sightseer (stars => wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Sightseer70"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] traveled the wasteland. [PAWN_pronoun] could barely scrape together travel costs doing odd-jobs, but it was all worth it.\n\n[PAWN_pronoun] loved camping in exotic places and learning the patterns of strange wildlife. [PAWN_pronoun] never could focus on intellectual endeavors, as [PAWN_possessive] sightseeing distracted [PAWN_objective] far too much.</description>
+        </value>
+    </Operation>
+
+    <!-- SoleSurvivor85: sole survivor (colony => settlement, mechanoid centipedes => rogue robots) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SoleSurvivor85"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] lived in a remote settlement. When rogue robots attacked [PAWN_possessive] home and killed [PAWN_possessive] people, [PAWN_pronoun] was the last survivor.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceBartender0: space bartender => wasteland bartender -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceBartender0"]/title</xpath>
+        <value>
+            <title>wasteland bartender</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceBartender0"]/titleShort</xpath>
+        <value>
+            <titleShort>bartender</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceBartender0"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] became a bartender in a caravan outpost. [PAWN_pronoun] interacted with and befriended many strangers.\n\nAs time went on, [PAWN_nameDef] used [PAWN_possessive] knowledge of herbs to craft [PAWN_possessive] own strange concoctions for [PAWN_possessive] customers.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceHunter79: space hunter => wasteland hunter -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceHunter79"]/title</xpath>
+        <value>
+            <title>wasteland hunter</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceHunter79"]/titleShort</xpath>
+        <value>
+            <titleShort>hunter</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceHunter79"]/description</xpath>
+        <value>
+            <description>Now a man as well as proficient hunter and marksman, [PAWN_nameDef] yearned for more. [PAWN_pronoun] took leave from [PAWN_possessive] home settlement, traveling the great expanse in search of exotic game.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceMerchant97: space merchant => wasteland merchant -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceMerchant97"]/title</xpath>
+        <value>
+            <title>wasteland merchant</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceMerchant97"]/titleShort</xpath>
+        <value>
+            <titleShort>merchant</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceMerchant97"]/description</xpath>
+        <value>
+            <description>As part of a freelance lifestyle, [PAWN_nameDef] sought to dominate [PAWN_possessive] romantic interests as much as [PAWN_possessive] business adversaries. When [PAWN_pronoun] didn't have [PAWN_possessive] own caravan to lead, [PAWN_pronoun] worked on others for caps.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceRaider71: space raider => wasteland raider -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceRaider71"]/title</xpath>
+        <value>
+            <title>wasteland raider</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceRaider71"]/titleShort</xpath>
+        <value>
+            <titleShort>raider</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceRaider71"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was the leader of a wasteland raider crew. Always on the move, [PAWN_pronoun] became a feared enemy of many settlements.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceStationCook63: space station cook => outpost cook -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceStationCook63"]/title</xpath>
+        <value>
+            <title>outpost cook</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceStationCook63"]/titleShort</xpath>
+        <value>
+            <titleShort>cook</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceStationCook63"]/description</xpath>
+        <value>
+            <description>The caravan outpost [PAWN_nameDef] came from was far from any settlements, and was in itself understaffed. For this reason, [PAWN_nameDef] was forced to learn how to cook in order to keep the crew alive. While [PAWN_pronoun] appreciated this learning opportunity, [PAWN_pronoun] didn't appreciate the criticism which came with it, and has had self-esteem issues ever since.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceTechnician29: relay technician => outpost technician -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceTechnician29"]/title</xpath>
+        <value>
+            <title>outpost technician</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceTechnician29"]/titleShort</xpath>
+        <value>
+            <titleShort>technician</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceTechnician29"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] finally managed to flee [PAWN_possessive] criminal life by getting a maintenance job on a nearby caravan outpost. [PAWN_pronoun] performed multiple repairing and building operations. [PAWN_pronoun] also used to participate in basic research activities and often defused co-workers' arguments. [PAWN_pronoun] never liked doing art.</description>
+        </value>
+    </Operation>
+
+    <!-- SpaceTrafficker68: space trafficker => wasteland trafficker -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceTrafficker68"]/title</xpath>
+        <value>
+            <title>wasteland trafficker</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="SpaceTrafficker68"]/titleShort</xpath>
+        <value>
+            <titleShort>trafficker</titleShort>
+        </value>
+    </Operation>
+
+    <!-- StationSecurity38: station security => outpost security -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="StationSecurity38"]/title</xpath>
+        <value>
+            <title>outpost security</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="StationSecurity38"]/titleShort</xpath>
+        <value>
+            <titleShort>security</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="StationSecurity38"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was commissioned as a special constable on a network of caravan outposts. There [PAWN_pronoun] prevented smuggling.\n\nOnce, fire broke out in an outpost, and [PAWN_pronoun] saved many from the flames. Since then, [PAWN_pronoun] has avoided fires.</description>
+        </value>
+    </Operation>
+
+    <!-- StilettoAssassin34: stiletto assassin (system => wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="StilettoAssassin34"]/description</xpath>
+        <value>
+            <description>Because of [PAWN_possessive] skills, [PAWN_nameDef] developed a sense of superiority. In time, [PAWN_pronoun] lost [PAWN_possessive] sense of empathy. [PAWN_pronoun] often got into fights, and discovered how easy it is to kill a person.\n\nAfter realizing [PAWN_possessive] talents, [PAWN_pronoun] became one of the most efficient assassins in the wasteland.</description>
+        </value>
+    </Operation>
+
+    <!-- TechnologyDoctor35: soldier-farmer (on her midworld => in her settlement) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="TechnologyDoctor35"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was a farmer in [PAWN_possessive] settlement, and spent [PAWN_possessive] free time practicing with guns. [PAWN_pronoun] knew how important the skills of farming and shooting would be in hard times, and trained to serve in a local militia.</description>
+        </value>
+    </Operation>
+
+    <!-- TreasureHunter82: treasure hunter (outlying rimworlds => pre-war ruins) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="TreasureHunter82"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] explored pre-war ruins in hopes of finding rare treasures.\n\nAfter succeeding in finding one legendary sculpture, [PAWN_pronoun] was betrayed by [PAWN_possessive] men. [PAWN_pronoun] survived their treasonous attack, but the sculpture was taken.\n\n[PAWN_pronoun] created the Anvil Mercenary Company to help [PAWN_objective] seek revenge.</description>
+        </value>
+    </Operation>
+
+    <!-- UrbworldPimp93: urbworld pimp => urban pimp -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldPimp93"]/title</xpath>
+        <value>
+            <title>urban pimp</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldPimp93"]/titleShort</xpath>
+        <value>
+            <titleShort>pimp</titleShort>
+        </value>
+    </Operation>
+
+    <!-- UrbworldSergeant50: urbworld sergeant => urban sergeant -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldSergeant50"]/title</xpath>
+        <value>
+            <title>urban sergeant</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldSergeant50"]/titleShort</xpath>
+        <value>
+            <titleShort>sergeant</titleShort>
+        </value>
+    </Operation>
+
+    <!-- UrbworldSexSlave25: urbworld sex slave => urban sex slave -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldSexSlave25"]/title</xpath>
+        <value>
+            <title>urban sex slave</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldSexSlave25"]/titleShort</xpath>
+        <value>
+            <titleShort>sex slave</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="UrbworldSexSlave25"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was sold into sexual slavery. Being inhumanly attractive and too weak to rebel against [PAWN_possessive] masters, [PAWN_pronoun] was passed between dozens of owners and knew nothing of freedom.</description>
+        </value>
+    </Operation>
+
+    <!-- Vagabond73: vagabond (on a dangerous planet => with no memories) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Vagabond73"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] awoke with no memories, no resources and few survival skills. [PAWN_pronoun] bounced between camps, doing whatever work needed to be done, just to see the sun rise once more.</description>
+        </value>
+    </Operation>
+
+    <!-- VengefulNomad67: vengeful nomad (king => dictator) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/description</xpath>
+        <value>
+            <description>After refusing the wild demands of a tyrannical dictator, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n[PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.</description>
+        </value>
+    </Operation>
+
+    <!-- WanderingHealer52: wandering healer (on an otherwise peaceful midworld => in an otherwise peaceful settlement, rimworlds => wasteland) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="WanderingHealer52"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] studied to be a doctor, but was dissatisfied with [PAWN_possessive] practice in an otherwise peaceful settlement.\n\nInstead, [PAWN_pronoun] chose to pull up roots and travel to the wasteland in order to care for people who needed [PAWN_objective] most.</description>
+        </value>
+    </Operation>
+
+    <!-- Mailman2: mail carrier => courier -->
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="Mailman2"]/title</xpath>
+        <value>
+            <title>courier</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="Mailman2"]/titleShort</xpath>
+        <value>
+            <titleShort>courier</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="Mailman2"]/titleFemale</xpath>
+        <value>
+            <titleFemale>courier</titleFemale>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="Mailman2"]/titleShortFemale</xpath>
+        <value>
+            <titleShortFemale>courier</titleShortFemale>
+        </value>
+    </Operation>
+
+
+    <!-- ExpertHandyman8: expert handyman (ship's AI persona => a robot's AI) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="ExpertHandyman8"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] worked as a traveling engineer. [PAWN_pronoun] fixed things ranging from a simple communications array to the intricate software harness enveloping a robot's AI. Nothing is beyond repair for [PAWN_objective].</description>
+        </value>
+    </Operation>
+
+</Patch>

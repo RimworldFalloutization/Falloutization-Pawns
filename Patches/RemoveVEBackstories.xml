@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Fully exclude listed unwanted Vanilla Backstories Expanded stories from all spawn pools.\n         Replaces spawnCategories with unused FalloutizationExcluded.\n         AdaptVEBackstories.xml only rewrites kept/adapted stories. -->
+
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>
+            Defs/BackstoryDef[
+                defName="VBE_AbandonedColonist" or
+                defName="VBE_AddictedGamer" or
+                defName="VBE_AndroidHunter" or
+                defName="VBE_AnimatronicMechanic" or
+                defName="VBE_AnomalousCreatureResearcher" or
+                defName="VBE_AquaponicWorker" or
+                defName="VBE_ArtCritic" or
+                defName="VBE_AtomicBombardier" or
+                defName="VBE_Bioweapon" or
+                defName="VBE_BloodlineFounder" or
+                defName="VBE_Bullleaper" or
+                defName="VBE_BureaucraticProgrammer" or
+                defName="VBE_Cannonfodder" or
+                defName="VBE_ChemfuelFarmer" or
+                defName="VBE_ChildSoldier" or
+                defName="VBE_CivilRightsActivist" or
+                defName="VBE_ClonedHeir" or
+                defName="VBE_CoginTheMachine" or
+                defName="VBE_ColonyAuditor" or
+                defName="VBE_Commenter" or
+                defName="VBE_CorporateFinancier" or
+                defName="VBE_CorporateSpy" or
+                defName="VBE_CorruptPolitician" or
+                defName="VBE_CosplayEnthusiast" or
+                defName="VBE_CriminalPriest" or
+                defName="VBE_Cryonic" or
+                defName="VBE_CyberDilettante" or
+                defName="VBE_DeepSpaceScrapper" or
+                defName="VBE_Demoscener" or
+                defName="VBE_DeposedRoyalty" or
+                defName="VBE_Dietetician" or
+                defName="VBE_DogWalker" or
+                defName="VBE_DrillOperator" or
+                defName="VBE_DroneOperator" or
+                defName="VBE_EngineHelper" or
+                defName="VBE_EngineRoomTech" or
+                defName="VBE_EnlistedTeen" or
+                defName="VBE_ExtranetTroll" or
+                defName="VBE_FashionDesigner" or
+                defName="VBE_Florist" or
+                defName="VBE_FoodCritic" or
+                defName="VBE_Foreman" or
+                defName="VBE_FormerChiefFinancialOfficer" or
+                defName="VBE_ForsakenPatriot" or
+                defName="VBE_FringeShitposter" or
+                defName="VBE_GalleryJanitor" or
+                defName="VBE_GalleyChef" or
+                defName="VBE_GeneModdedBeauty" or
+                defName="VBE_GeneticReincarnation" or
+                defName="VBE_GiftedBurnout" or
+                defName="VBE_HostessInTraining" or
+                defName="VBE_HumanFarm" or
+                defName="VBE_IncompetentPilot" or
+                defName="VBE_IndustrialSoldier" or
+                defName="VBE_IndustrialWorldCounterterrorist" or
+                defName="VBE_Jeweler" or
+                defName="VBE_LandscapePainter" or
+                defName="VBE_Landsknecht" or
+                defName="VBE_LifelongPersonalAssistant" or
+                defName="VBE_LighthouseKeeper" or
+                defName="VBE_LightingAssistant" or
+                defName="VBE_LiteraryCritic" or
+                defName="VBE_LivingCure" or
+                defName="VBE_Maid" or
+                defName="VBE_Mariner" or
+                defName="VBE_MarineworldResearcher" or
+                defName="VBE_Masterofceremonies" or
+                defName="VBE_MattressTester" or
+                defName="VBE_MedicineProdigy" or
+                defName="VBE_MidworldNomad" or
+                defName="VBE_MidworldProgrammer" or
+                defName="VBE_MilitarySurplusSupplier" or
+                defName="VBE_ModelCitizen" or
+                defName="VBE_NoirDetective" or
+                defName="VBE_OldWarSurvivor" or
+                defName="VBE_OliveFarmer" or
+                defName="VBE_PondDesigner" or
+                defName="VBE_PrivateContractor" or
+                defName="VBE_Propagandist" or
+                defName="VBE_ProsecutedWarVeteran" or
+                defName="VBE_Pushover" or
+                defName="VBE_ResearchScientist" or
+                defName="VBE_RetiredSoldier" or
+                defName="VBE_Rocker" or
+                defName="VBE_Rudie" or
+                defName="VBE_ShipSalvager" or
+                defName="VBE_ShipsNavigator" or
+                defName="VBE_SiloManager" or
+                defName="VBE_Sommelier" or
+                defName="VBE_Standardbearer" or
+                defName="VBE_StarfighterMaintainer" or
+                defName="VBE_StarshipScamp" or
+                defName="VBE_StarvingArtist" or
+                defName="VBE_StructuralEngineer" or
+                defName="VBE_TrainDriver" or
+                defName="VBE_TraineeCombatMedic" or
+                defName="VBE_Translator" or
+                defName="VBE_UrbworldRioter" or
+                defName="VBE_UrbworldWarStudent" or
+                defName="VBE_VatgrownColonist" or
+                defName="VBE_WalkerEngineer" or
+                defName="VBE_YoungAstronomer"
+            ]/spawnCategories
+        </xpath>
+        <value>
+            <spawnCategories>
+                <li>FalloutizationExcluded</li>
+            </spawnCategories>
+        </value>
+    </Operation>
+
+</Patch>
