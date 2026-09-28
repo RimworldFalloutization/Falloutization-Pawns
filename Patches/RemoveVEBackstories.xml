@@ -84,6 +84,7 @@
                 defName="VBE_OliveFarmer" or
                 defName="VBE_PondDesigner" or
                 defName="VBE_PrivateContractor" or
+                defName="VBE_PrivateerCaptain" or
                 defName="VBE_Propagandist" or
                 defName="VBE_ProsecutedWarVeteran" or
                 defName="VBE_Pushover" or

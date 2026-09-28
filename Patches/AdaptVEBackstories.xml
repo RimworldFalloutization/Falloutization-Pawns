@@ -167,6 +167,20 @@
         </value>
     </Operation>
 
+    <!-- VBE_PirateChef: pirate chef => raider chef (on a pirate ship => in a pirate base, crew's => gang's, captain => chief) -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_PirateChef"]/title</xpath>
+        <value>
+            <title>raider chef</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_PirateChef"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was the Chef in a pirate base. Between meals, [PAWN_pronoun] told tall tales that kept the gang's morale high. The gang's loyalty to their chef was great, possibly even greater than to their chief...</baseDesc>
+        </value>
+    </Operation>
+
     <!-- VBE_IndustrialGunsmith: industrial gunsmith => gunsmith -->
     <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
         <xpath>Defs/BackstoryDef[defName="VBE_IndustrialGunsmith"]/title</xpath>
