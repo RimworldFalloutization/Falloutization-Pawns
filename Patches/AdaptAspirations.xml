@@ -70,4 +70,27 @@
     </value>
   </Operation>
 
+  <!-- Consul (VFE Empire) → attorney general (FIP Whitespring) -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,FIP.Whitespring">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeAConsul"]/label</xpath>
+    <value>
+      <label>become an attorney general</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,FIP.Whitespring">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeAConsul"]/description</xpath>
+    <value>
+      <description>{0} wants to gain the rank of attorney general in the Enclave hierarchy.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,FIP.Whitespring">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeAConsul"]/satisfiedWhenText</xpath>
+    <value>
+      <satisfiedWhenText>{0} reaches the rank of attorney general.</satisfiedWhenText>
+    </value>
+  </Operation>
+
 </Patch>
