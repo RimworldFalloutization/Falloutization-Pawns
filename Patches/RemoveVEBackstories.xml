@@ -19,8 +19,10 @@
                 defName="VBE_Bullleaper" or
                 defName="VBE_BureaucraticProgrammer" or
                 defName="VBE_Cannonfodder" or
+                defName="VBE_CenturionsDeputy" or
                 defName="VBE_ChemfuelFarmer" or
                 defName="VBE_ChildSoldier" or
+                defName="VBE_ChildofTheAnimaTree" or
                 defName="VBE_CivilRightsActivist" or
                 defName="VBE_ClonedHeir" or
                 defName="VBE_CoginTheMachine" or
@@ -62,6 +64,7 @@
                 defName="VBE_IndustrialSoldier" or
                 defName="VBE_IndustrialWorldCounterterrorist" or
                 defName="VBE_Jeweler" or
+                defName="VBE_JungleScout" or
                 defName="VBE_LandscapePainter" or
                 defName="VBE_Landsknecht" or
                 defName="VBE_LifelongPersonalAssistant" or
@@ -101,6 +104,7 @@
                 defName="VBE_StarshipScamp" or
                 defName="VBE_StarvingArtist" or
                 defName="VBE_StructuralEngineer" or
+                defName="VBE_Thane" or
                 defName="VBE_TrainDriver" or
                 defName="VBE_TraineeCombatMedic" or
                 defName="VBE_Translator" or

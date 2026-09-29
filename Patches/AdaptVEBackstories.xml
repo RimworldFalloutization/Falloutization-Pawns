@@ -197,4 +197,12 @@
         </value>
     </Operation>
 
+    <!-- VBE_ForcedPrimitivist: outlander union => wastelander settlement -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_ForcedPrimitivist"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] wasn't always part of the tribes. After getting exiled from [PAWN_possessive] local wastelander settlement due to ruining an entire crop harvest, [PAWN_nameDef] had to live out in the open for years, with only crude tools to aid [PAWN_objective]. This made [PAWN_objective] a jack-of-all-trades, but completely broke [PAWN_possessive] trust of people.</baseDesc>
+        </value>
+    </Operation>
+
 </Patch>

@@ -987,4 +987,62 @@
         </value>
     </Operation>
 
+    <!-- CrashBaby32: crash baby => lost baby (deadly spacecraft crash => caravan raid, wreckage => aftermath) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CrashBaby32"]/title</xpath>
+        <value>
+            <title>lost baby</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CrashBaby32"]/titleShort</xpath>
+        <value>
+            <titleShort>lostbaby</titleShort>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="CrashBaby32"]/description</xpath>
+        <value>
+            <description>As a baby, [PAWN_nameDef] was the only survivor of a caravan raid. A passing tribe discovered [PAWN_objective] in the aftermath and adopted [PAWN_objective].</description>
+        </value>
+    </Operation>
+
+    <!-- Herder19: muffalo => brahmin -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Herder19"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] tended the brahmin herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people.</description>
+        </value>
+    </Operation>
+
+    <!-- Brave88: ikwa => spears -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Brave88"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] wielded spears, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe.</description>
+        </value>
+    </Operation>
+
+    <!-- Excavator55: ancient compacted => pre-war -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="Excavator55"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] worked at dig sites, extracting valuable items and materials from pre-war ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools.</description>
+        </value>
+    </Operation>
+
+    <!-- MuffaloShaman95: muffalo shaman => brahmin shaman (muffalo => brahmin) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MuffaloShaman95"]/title</xpath>
+        <value>
+            <title>brahmin shaman</title>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/BackstoryDef[defName="MuffaloShaman95"]/description</xpath>
+        <value>
+            <description>Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the brahmin.</description>
+        </value>
+    </Operation>
+
 </Patch>

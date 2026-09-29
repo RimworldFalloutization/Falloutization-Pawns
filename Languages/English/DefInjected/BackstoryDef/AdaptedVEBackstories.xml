@@ -42,4 +42,6 @@
   <VBE_IndustrialGunsmith.title>gunsmith</VBE_IndustrialGunsmith.title>
   <!-- VBE_SupplyCoordinator: colony's => settlement's -->
   <VBE_SupplyCoordinator.baseDesc>[PAWN_nameDef] was essential in managing the settlement's logistics and supply chains, ensuring the efficient flow of goods and materials. Highly organized but not particularly hands-on, [PAWN_pronoun] steered clear of direct care roles and skilled manual work.</VBE_SupplyCoordinator.baseDesc>
+  <!-- VBE_ForcedPrimitivist: outlander union => wastelander settlement -->
+  <VBE_ForcedPrimitivist.baseDesc>[PAWN_nameDef] wasn't always part of the tribes. After getting exiled from [PAWN_possessive] local wastelander settlement due to ruining an entire crop harvest, [PAWN_nameDef] had to live out in the open for years, with only crude tools to aid [PAWN_objective]. This made [PAWN_objective] a jack-of-all-trades, but completely broke [PAWN_possessive] trust of people.</VBE_ForcedPrimitivist.baseDesc>
 </LanguageData>

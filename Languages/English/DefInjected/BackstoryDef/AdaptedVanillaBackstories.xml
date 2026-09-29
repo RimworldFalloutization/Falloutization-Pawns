@@ -217,4 +217,17 @@
   <Mailman2.titleShortFemale>courier</Mailman2.titleShortFemale>
   <!-- ExpertHandyman8: expert handyman (ship's AI persona => a robot's AI) -->
   <ExpertHandyman8.description>[PAWN_nameDef] worked as a traveling engineer. [PAWN_pronoun] fixed things ranging from a simple communications array to the intricate software harness enveloping a robot's AI. Nothing is beyond repair for [PAWN_objective].</ExpertHandyman8.description>
+  <!-- CrashBaby32: crash baby => lost baby (deadly spacecraft crash => caravan raid, wreckage => aftermath) -->
+  <CrashBaby32.title>lost baby</CrashBaby32.title>
+  <CrashBaby32.titleShort>lostbaby</CrashBaby32.titleShort>
+  <CrashBaby32.description>As a baby, [PAWN_nameDef] was the only survivor of a caravan raid. A passing tribe discovered [PAWN_objective] in the aftermath and adopted [PAWN_objective].</CrashBaby32.description>
+  <!-- Herder19: muffalo => brahmin -->
+  <Herder19.description>[PAWN_nameDef] tended the brahmin herds, keeping them safe from predators and treating sick animals. It was quiet work, but [PAWN_pronoun] enjoyed being away from people.</Herder19.description>
+  <!-- Brave88: ikwa => spears -->
+  <Brave88.description>[PAWN_nameDef] wielded spears, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe.</Brave88.description>
+  <!-- Excavator55: ancient compacted => pre-war -->
+  <Excavator55.description>[PAWN_nameDef] worked at dig sites, extracting valuable items and materials from pre-war ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools.</Excavator55.description>
+  <!-- MuffaloShaman95: muffalo shaman => brahmin shaman (muffalo => brahmin) -->
+  <MuffaloShaman95.title>brahmin shaman</MuffaloShaman95.title>
+  <MuffaloShaman95.description>Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the brahmin.</MuffaloShaman95.description>
 </LanguageData>
