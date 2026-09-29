@@ -9,4 +9,16 @@
     <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeInhuman"]</xpath>
   </Operation>
 
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_GetJoywired"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_ConnectWithGauranlenTree"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_FormPsychicBond"]</xpath>
+  </Operation>
+
 </Patch>
