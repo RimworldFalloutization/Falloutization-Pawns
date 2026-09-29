@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,Rick.FCP.Ghouls">
+    <xpath>Defs</xpath>
+    <value>
+      <VAspirE.AspirationDef>
+        <defName>Falloutization_BecomeGhoul</defName>
+        <label>become a ghoul</label>
+        <iconPath>UI/AspirationIcons/Aspiration_BecomeSanguophage</iconPath>
+        <description>{0} wants to endure the glow and transform into a ghoul.</description>
+        <invalidXenotypes>
+          <li>FCP_Xenotype_Ghoul</li>
+          <li>FCP_Xenotype_Ghoul_Feral</li>
+          <li>FCP_Xenotype_Ghoul_Glowing_One</li>
+          <li>FCP_Xenotype_Ghoul_GlowingOne_Feral</li>
+        </invalidXenotypes>
+        <satisfiedXenotypesAny>
+          <li>FCP_Xenotype_Ghoul</li>
+          <li>FCP_Xenotype_Ghoul_Feral</li>
+          <li>FCP_Xenotype_Ghoul_Glowing_One</li>
+          <li>FCP_Xenotype_Ghoul_GlowingOne_Feral</li>
+        </satisfiedXenotypesAny>
+      </VAspirE.AspirationDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.WestTek">
+    <xpath>Defs</xpath>
+    <value>
+      <VAspirE.AspirationDef>
+        <defName>Falloutization_BecomeSupermutant</defName>
+        <label>become a supermutant</label>
+        <iconPath>UI/AspirationIcons/Aspiration_BecomeSanguophage</iconPath>
+        <description>{0} wants to take the FEV and emerge as a supermutant.</description>
+        <invalidXenotypes>
+          <li>WestTek_Xenotype_SuperMutantFirst</li>
+          <li>WestTek_Xenotype_SuperMutantSecond</li>
+        </invalidXenotypes>
+        <satisfiedXenotypesAny>
+          <li>WestTek_Xenotype_SuperMutantFirst</li>
+          <li>WestTek_Xenotype_SuperMutantSecond</li>
+        </satisfiedXenotypesAny>
+      </VAspirE.AspirationDef>
+    </value>
+  </Operation>
+
+</Patch>

@@ -5,4 +5,8 @@
     <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_ExperienceResurrection"]</xpath>
   </Operation>
 
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeInhuman"]</xpath>
+  </Operation>
+
 </Patch>
