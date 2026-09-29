@@ -24,6 +24,7 @@
   <Operation Class="PatchOperationAdd" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,Rick.FCP.NukaCola">
     <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DrinkAperitif"]</xpath>
     <value>
+      <satisfiedWhenText>{0} drinks any nuka-cola.</satisfiedWhenText>
       <satisfiedHediffAny>
         <li>FCP_Nuka_Cola_High</li>
         <li>FCP_Nuka_Cola_Cherry_High</li>
