@@ -29,6 +29,7 @@
                 defName="VBE_ColonyAuditor" or
                 defName="VBE_Commenter" or
                 defName="VBE_CorporateFinancier" or
+                defName="VBE_CorporateMascot" or
                 defName="VBE_CorporateSpy" or
                 defName="VBE_CorruptPolitician" or
                 defName="VBE_CosplayEnthusiast" or
