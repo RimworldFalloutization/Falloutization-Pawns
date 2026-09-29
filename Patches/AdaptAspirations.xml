@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Drink aperitif (VFE Empire) → drink nuka-cola (FCP) -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,Rick.FCP.NukaCola">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DrinkAperitif"]/label</xpath>
+    <value>
+      <label>drink nuka-cola</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,Rick.FCP.NukaCola">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DrinkAperitif"]/description</xpath>
+    <value>
+      <description>{0} wants to crack open a nuka-cola.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,Rick.FCP.NukaCola">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DrinkAperitif"]/satisfiedHediff</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Empire,Rick.FCP.NukaCola">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DrinkAperitif"]</xpath>
+    <value>
+      <satisfiedHediffAny>
+        <li>FCP_Nuka_Cola_High</li>
+        <li>FCP_Nuka_Cola_Cherry_High</li>
+        <li>FCP_Nuka_Cola_Orange_High</li>
+        <li>FCP_Nuka_Cola_Quantum_High</li>
+        <li>FCP_Nuka_Cola_Quartz_High</li>
+        <li>FCP_Nuka_Cola_Victory_High</li>
+        <li>FCP_Nuka_Cola_Ice_Cold_High</li>
+        <li>FCP_Nuka_Cola_Twist_High</li>
+        <li>FCP_Nuka_Cola_Cranberry_High</li>
+        <li>FCP_Nuka_Cola_Dark_High</li>
+      </satisfiedHediffAny>
+    </value>
+  </Operation>
+
+</Patch>
