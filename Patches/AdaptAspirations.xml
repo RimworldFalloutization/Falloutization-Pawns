@@ -40,4 +40,34 @@
     </value>
   </Operation>
 
+  <!-- Centipede blaster revenge → annihilator sentrybot (FIP RobCo) -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.RobCo">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_GetUltimateRevengeOnCentipede"]/label</xpath>
+    <value>
+      <label>get ultimate revenge on an annihilator sentrybot</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.RobCo">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_GetUltimateRevengeOnCentipede"]/description</xpath>
+    <value>
+      <description>{0} wants to shred an annihilator sentrybot to show him who's boss now.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.RobCo">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_GetUltimateRevengeOnCentipede"]/satisfiedByIngredientInRecipe</xpath>
+    <value>
+      <satisfiedByIngredientInRecipe>Corpse_RobCo_SentrybotAnnihilator</satisfiedByIngredientInRecipe>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.RobCo">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_GetUltimateRevengeOnCentipede"]</xpath>
+    <value>
+      <satisfiedWhenText>{0} butchers an annihilator sentrybot.</satisfiedWhenText>
+    </value>
+  </Operation>
+
 </Patch>
