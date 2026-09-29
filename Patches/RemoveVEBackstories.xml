@@ -8,6 +8,7 @@
             Defs/BackstoryDef[
                 defName="VBE_AbandonedColonist" or
                 defName="VBE_AddictedGamer" or
+                defName="VBE_AimlessDilettante" or
                 defName="VBE_AndroidHunter" or
                 defName="VBE_AnimatronicMechanic" or
                 defName="VBE_AnomalousCreatureResearcher" or
@@ -15,6 +16,7 @@
                 defName="VBE_ArtCritic" or
                 defName="VBE_AtomicBombardier" or
                 defName="VBE_Bioweapon" or
+                defName="VBE_BloodKnight" or
                 defName="VBE_BloodlineFounder" or
                 defName="VBE_Bullleaper" or
                 defName="VBE_BureaucraticProgrammer" or
@@ -61,6 +63,7 @@
                 defName="VBE_GiftedBurnout" or
                 defName="VBE_HostessInTraining" or
                 defName="VBE_HumanFarm" or
+                defName="VBE_ImperialCircusPerformer" or
                 defName="VBE_IncompetentPilot" or
                 defName="VBE_IndustrialSoldier" or
                 defName="VBE_IndustrialWorldCounterterrorist" or
@@ -87,6 +90,7 @@
                 defName="VBE_OldWarSurvivor" or
                 defName="VBE_OliveFarmer" or
                 defName="VBE_PondDesigner" or
+                defName="VBE_PreservationistRuler" or
                 defName="VBE_PrivateContractor" or
                 defName="VBE_PrivateerCaptain" or
                 defName="VBE_Propagandist" or

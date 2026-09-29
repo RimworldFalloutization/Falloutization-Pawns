@@ -205,4 +205,20 @@
         </value>
     </Operation>
 
+    <!-- VBE_GardenCurator: botanical => hydroponic, educating the public => feeding the people -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_GardenCurator"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] oversaw a large hydroponic garden, specializing in the cultivation of rare plants and feeding the people. [PAWN_possessive] green thumb was unparalleled, yet [PAWN_pronoun] lacked the physical capabilities for demanding labor or combat.</baseDesc>
+        </value>
+    </Operation>
+
+    <!-- VBE_Informant: Glitterworld Law Enforcement => the Enclave Intelligence, an outer world => a wasteland settlement -->
+    <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaBackstoriesExpanded">
+        <xpath>Defs/BackstoryDef[defName="VBE_Informant"]/baseDesc</xpath>
+        <value>
+            <baseDesc>[PAWN_nameDef] was once in a major criminal organization, but after being caught, [PAWN_pronoun] became an informant for the Enclave Intelligence. As part of the deal, [PAWN_pronoun] would be given a new name and identity and be shipped off to a wasteland settlement.</baseDesc>
+        </value>
+    </Operation>
+
 </Patch>

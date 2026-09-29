@@ -1045,4 +1045,28 @@
         </value>
     </Operation>
 
+    <!-- DisgracedOfficer19: imperial => Enclave -->
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="DisgracedOfficer19"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was an officer in an Enclave battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men.\nWhen [PAWN_possessive] unit came under direct fire for the first time, [PAWN_nameDef] fled to a bunker and hid. [PAWN_pronoun] was demoted and never escaped the disgrace.</description>
+        </value>
+    </Operation>
+
+    <!-- LineInfanteer20: imperial => Enclave -->
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="LineInfanteer20"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was an ordinary infanteer in an Enclave battalion.\nConscripted at a young age to add bodies the army, [PAWN_nameDef] learned the methods of fighting well enough to satisfy [PAWN_possessive] officers. However, [PAWN_pronoun] never quite understood what was going on around [PAWN_objective] enough to really believe in it.</description>
+        </value>
+    </Operation>
+
+    <!-- MilitaryCommissar71: imperial => Enclave -->
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Royalty">
+        <xpath>Defs/BackstoryDef[defName="MilitaryCommissar71"]/description</xpath>
+        <value>
+            <description>[PAWN_nameDef] was an internal spymaster in an Enclave army battalion. [PAWN_pronoun] made sure that the men were loyal, and did not fall back unless ordered. This made [PAWN_objective] unpopular, but [PAWN_pronoun] gained great skill at detecting the slightest dishonesty.</description>
+        </value>
+    </Operation>
+
 </Patch>

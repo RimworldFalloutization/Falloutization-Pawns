@@ -29,6 +29,7 @@
                 defName="BanishedSoldier85" or
                 defName="BattleMechanic27" or
                 defName="BattlefieldTech52" or
+                defName="Beastmaster67" or
                 defName="BehaviourResearch74" or
                 defName="BiosphereManager95" or
                 defName="Blacksmith7" or
@@ -46,6 +47,7 @@
                 defName="Chef52" or
                 defName="ChiefEngineer62" or
                 defName="ChildStar74" or
+                defName="ChurchPsychic98" or
                 defName="CivilEngineer2" or
                 defName="CivilServant2" or
                 defName="CivilServant25" or
@@ -64,6 +66,7 @@
                 defName="CorpResearcher93" or
                 defName="CorporateBuilder58" or
                 defName="CorporateDrone10" or
+                defName="CorporateFixer36" or
                 defName="CorporateManager76" or
                 defName="CosmeticReject64" or
                 defName="CostumeCrafter41" or
@@ -89,6 +92,7 @@
                 defName="FelineScientist76" or
                 defName="FerventResearcher72" or
                 defName="FighterController67" or
+                defName="Firebomber51" or
                 defName="Forester96" or
                 defName="FrightenedChild43" or
                 defName="FurnitureBuilder83" or
@@ -102,6 +106,7 @@
                 defName="Gnomebiologist96" or
                 defName="GovernmentAgent61" or
                 defName="GraphicDesigner33" or
+                defName="HeadButler50" or
                 defName="HedgeFundManager54" or
                 defName="Hermit82" or
                 defName="Herpetologist3" or
@@ -110,12 +115,14 @@
                 defName="ImperialGeneral27" or
                 defName="Jailbird40" or
                 defName="JoywireArtist8" or
+                defName="Landworker98" or
                 defName="LanguageAnalyst27" or
                 defName="LazyProgrammer3" or
                 defName="LivestockFarmer8" or
                 defName="Logger16" or
                 defName="Logger95" or
                 defName="LostSoldier13" or
+                defName="LoyalJanissary59" or
                 defName="MadAccountant61" or
                 defName="MadScientist31" or
                 defName="Mathematician6" or
@@ -127,11 +134,13 @@
                 defName="MedievalLordling19" or
                 defName="MedievalMinstrel95" or
                 defName="MedievalSailor97" or
+                defName="MenagerieKeeper1" or
                 defName="MentalPatient69" or
                 defName="MercenaryLord13" or
                 defName="MercenaryPilot63" or
                 defName="MessageCarrier77" or
                 defName="Microbiologist12" or
+                defName="MilitaryChaplain10" or
                 defName="MilitaryEngineer45" or
                 defName="MilitaryGunsmith27" or
                 defName="MilitaryInventor35" or
@@ -151,15 +160,19 @@
                 defName="Novelist7" or
                 defName="OrbitalReservist22" or
                 defName="OrganFarm67" or
+                defName="OrnamentMaker56" or
                 defName="Osteologist74" or
                 defName="OverwatchSniper42" or
+                defName="PamperedLordling37" or
                 defName="Paramedic45" or
                 defName="ParamilitaryAgent11" or
                 defName="ParticlePhysicist44" or
                 defName="Philosopher82" or
                 defName="Philosopher97" or
+                defName="PiousSoldier67" or
                 defName="PlagueDoctor31" or
                 defName="PlanetaryDiplomat7" or
+                defName="PlanetaryMiner64" or
                 defName="PoliticalActivist20" or
                 defName="PoliticalAssassin46" or
                 defName="Politician57" or
@@ -172,6 +185,7 @@
                 defName="Ranger6" or
                 defName="RebelFighter39" or
                 defName="Recruiter14" or
+                defName="Regent9" or
                 defName="ReligiousHierarch16" or
                 defName="RenownedProfessor51" or
                 defName="Reporter71" or
@@ -180,6 +194,8 @@
                 defName="Roboticist1" or
                 defName="RocketEngineer53" or
                 defName="RocketPioneer19" or
+                defName="RoyalBastard64" or
+                defName="RoyalGuard51" or
                 defName="RugbyPlayer71" or
                 defName="SanitationCaptain29" or
                 defName="Scout44" or
@@ -210,6 +226,7 @@
                 defName="SpecialForces13" or
                 defName="Spiceminer81" or
                 defName="Spy58" or
+                defName="Spymaster41" or
                 defName="StarKnight5" or
                 defName="StarfighterPilot79" or
                 defName="StarshipDoctor37" or
@@ -229,7 +246,9 @@
                 defName="TheaterTechnician80" or
                 defName="ToasterRepairman22" or
                 defName="TravelingBard93" or
+                defName="UnwantedSurvivor67" or
                 defName="UprightDiplomat49" or
+                defName="UrbanLordling82" or
                 defName="UrbworldDrone32" or
                 defName="UrbworldEnforcer11" or
                 defName="UrbworldEntrepreneur14" or
@@ -240,6 +259,7 @@
                 defName="VideoProducer83" or
                 defName="VoidRaider74" or
                 defName="VoidspaceRaider94" or
+                defName="Warmaster54" or
                 defName="Warrior73" or
                 defName="Warrior94" or
                 defName="WarshipCaptain67" or
