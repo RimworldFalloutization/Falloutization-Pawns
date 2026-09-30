@@ -21,4 +21,16 @@
     <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_FormPsychicBond"]</xpath>
   </Operation>
 
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomePsycaster"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_PlayWithCube"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove" MayRequire="VanillaExpanded.VanillaAspirationsExpanded">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_GainALevel5Psycast"]</xpath>
+  </Operation>
+
 </Patch>

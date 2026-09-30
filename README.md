@@ -18,9 +18,12 @@
 - NCR deserters inmate should no longer spawn on raids
 - Drink aperitiff aspiration (Vanilla Aspirations Expaded) changed into Drink nuka-cola (FCP Nuka-Cola)
 - Get ultimated revenge on a centipede blaster aspiration (Vanilla Aspirations Expaded) changed to target Annihilator Sentrybot (FIP RobCo)
+- Use a declassifier aspiration (Vanilla Aspirations Expanded) now refers to a brotherhood declassifier used on a Whitespring VIP
+- Become a sanguophage aspiration (Vanilla Aspirations Expanded) renamed to become a wendigo (FIP WestTek)
 
 
 ## Removals
 
 - A bunch of backstories from vanilla, DLCs and Vanilla Backstories Expanded that don't fit within the Fallout settings
 - Become Inuhmanized aspiration (Vanilla Aspirations Expanded)
+- Become a psycaster, play with a golden cube, and gain a level five psycast aspirations (Vanilla Aspirations Expanded)

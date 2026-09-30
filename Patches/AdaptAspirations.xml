@@ -102,4 +102,29 @@
     </value>
   </Operation>
 
+  <!-- Use a declassifier (VFE Deserters) → brotherhood declassifier on a Whitespring VIP -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Deserters,FIP.Whitespring">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_UseADeclassifier"]/description</xpath>
+    <value>
+      <description>{0} wants to see what it’s like to use a brotherhood declassifier on a Whitespring VIP.</description>
+    </value>
+  </Operation>
+
+  <!-- Become a sanguophage → become a wendigo (FIP WestTek) -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.WestTek">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeSanguophage"]/label</xpath>
+    <value>
+      <label>become a wendigo</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,FIP.WestTek">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_BecomeSanguophage"]/description</xpath>
+    <value>
+      <description>{0} wants to live forever as a wendigo.</description>
+    </value>
+  </Operation>
+
 </Patch>
