@@ -93,4 +93,13 @@
     </value>
   </Operation>
 
+  <!-- Join the deserters (VFE Deserters) → join the brotherhood expedition -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,OskarPotocki.VFE.Deserters">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_JoinTheDeserters"]/label</xpath>
+    <value>
+      <label>join the brotherhood expedition</label>
+    </value>
+  </Operation>
+
 </Patch>
