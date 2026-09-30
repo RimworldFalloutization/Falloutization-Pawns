@@ -127,4 +127,20 @@
     </value>
   </Operation>
 
+  <!-- Destroy a mech cluster → destroy a robot cluster -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,Ludeon.RimWorld.Royalty">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DestroyCluster"]/label</xpath>
+    <value>
+      <label>destroy a robot cluster</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="VanillaExpanded.VanillaAspirationsExpanded,Ludeon.RimWorld.Royalty">
+    <xpath>Defs/VAspirE.AspirationDef[defName="VAspirE_DestroyCluster"]/description</xpath>
+    <value>
+      <description>{0} wants to completely destroy a robot cluster.</description>
+    </value>
+  </Operation>
+
 </Patch>

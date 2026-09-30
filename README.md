@@ -20,6 +20,7 @@
 - Get ultimated revenge on a centipede blaster aspiration (Vanilla Aspirations Expaded) changed to target Annihilator Sentrybot (FIP RobCo)
 - Use a declassifier aspiration (Vanilla Aspirations Expanded) now refers to a brotherhood declassifier used on a Whitespring VIP
 - Become a sanguophage aspiration (Vanilla Aspirations Expanded) renamed to become a wendigo (FIP WestTek)
+- Destroy a mech cluster aspiration (Vanilla Aspirations Expanded) retexted to destroy a robot cluster
 
 
 ## Removals
