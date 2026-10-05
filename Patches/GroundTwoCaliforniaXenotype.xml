@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- WestTek relabels these as rad resistance, rad absorption, and alcohol dependency. -->
+  <Operation Class="PatchOperationConditional" MayRequire="FIP.WestTek">
+    <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_TwoCalifornia"]/genes/li[text()="ToxResist_Partial" or text()="ToxicEnvironmentResistance_Partial" or text()="ChemicalDependency_Alcohol"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/XenotypeDef[defName="WestTek_Xenotype_TwoCalifornia"]/genes/li[text()="ToxResist_Partial" or text()="ToxicEnvironmentResistance_Partial" or text()="ChemicalDependency_Alcohol"]</xpath>
+    </match>
+  </Operation>
+</Patch>

@@ -21,6 +21,7 @@
 - Use a declassifier aspiration (Vanilla Aspirations Expanded) now refers to a brotherhood declassifier used on a Whitespring VIP
 - Become a sanguophage aspiration (Vanilla Aspirations Expanded) renamed to become a wendigo (FIP WestTek)
 - Destroy a mech cluster aspiration (Vanilla Aspirations Expanded) retexted to destroy a robot cluster
+- FIP WestTek Two California xenotype no longer has rad resistance, rad absorption, or alcohol dependency
 
 
 ## Removals
